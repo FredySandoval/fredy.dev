@@ -23,7 +23,7 @@ const sending = async (email) => {
     body: JSON.stringify(emailaddress)
   }
 
-  const emailresponse = await fetch('http://me.fredy.dev/api', options)
+  const emailresponse = await fetch('https://me.fredy.dev/api', options)
   const emailjson = await emailresponse.json();
   console.log(emailjson.receive + " to " + emailaddress.username);
   if(emailresponse){
