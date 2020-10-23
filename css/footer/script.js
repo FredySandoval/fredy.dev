@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const handler = () => raf(() => {
         // answer.innerHTML = 'Is the div visible? ' + ( gambitGalleryIsInView( tester ) ? 'Yes' : 'No' )
         if (gambitGalleryIsInView(tester)) {
-            console.log('yes');
+            // console.log('yes');
             if (footer.className != '.buttom-i')
                 footer.className = '.bottom-i footershow';
         } else {
