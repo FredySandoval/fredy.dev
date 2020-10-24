@@ -2,7 +2,7 @@
     border: 1px solid black;
 } */
 embed {
-    display: hide;
+    display: none;
 }
 body {
     background-color: rgb(231, 231, 231);
