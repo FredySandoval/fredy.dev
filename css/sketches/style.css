@@ -65,6 +65,16 @@ embed {
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.466);
     transition: width 2s;
 }
+iframe {
+    /* border: 2px solid gray; */
+    border-radius: 15px;
+    height: 400px;
+    width: 100%;
+    max-width: 1000px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.466);
+    transition: width 2s;
+}
 
 /* :root {--w: auto} div {width: var(--w)} div:hover {width: calc(var(--w) - 5px); */
 
@@ -77,6 +87,17 @@ embed {
         flex-direction: column;
     }
     embed {
+        width: 80%;
+        /* border: 2px solid gray; */
+        border-radius: 15px;
+        height: 600px;
+        /* width: 100%; */
+        max-width: 1000px;
+        margin-bottom: 50px;
+        transition: width 2s;
+        
+    }
+    iframe {
         width: 80%;
         /* border: 2px solid gray; */
         border-radius: 15px;
