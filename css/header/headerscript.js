@@ -5,7 +5,7 @@ const network = {
     leetcode: 'https://leetcode.com/shockerovip/',
     email: 'https://mail.google.com/mail/?view=cm&fs=1&to=me@fredy.dev&su=Hey_It_was_checking_your_page&body=I_was_really_good'
 }
-
+window.scrollTo = function () {};
 window.addEventListener('load', (event) => {
     window.scrollTo = function () {};
     setTimeout(() => {
