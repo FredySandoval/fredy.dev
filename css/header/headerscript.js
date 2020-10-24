@@ -29,6 +29,7 @@ function bounceIcon(temp) {
         let social = temp.id;
         window.open(network[social]);
      }, 1000);
+     document.querySelector('embed').style.display = 'show'
 }
 
 window.onscroll = function() {myFunction()};

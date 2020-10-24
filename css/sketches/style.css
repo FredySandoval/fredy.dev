@@ -1,7 +1,9 @@
 /* * {
     border: 1px solid black;
 } */
-
+embed {
+    display: hide;
+}
 body {
     background-color: rgb(231, 231, 231);
     
