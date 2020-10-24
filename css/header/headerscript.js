@@ -8,7 +8,10 @@ const network = {
 
 window.addEventListener('load', (event) => {
     //  window.parent.scrollTo(0,0)
-    document.querySelector('embed').style.display = ''
+    setTimeout(() => {
+        document.querySelector('embed').style.display = ''
+        
+    }, 500);
     const emptyH = document.querySelectorAll('.header-icons'); //.style.animationName = '';
 
     setTimeout(() => {
