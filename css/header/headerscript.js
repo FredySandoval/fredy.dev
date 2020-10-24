@@ -7,6 +7,7 @@ const network = {
 }
 
 window.addEventListener('load', (event) => {
+     window.parent.scrollTo(0,0)
     const emptyH = document.querySelectorAll('.header-icons'); //.style.animationName = '';
 
     setTimeout(() => {
@@ -29,10 +30,11 @@ function bounceIcon(temp) {
         let social = temp.id;
         window.open(network[social]);
     }, 1000);
-    setTimeout(() => {
-        document.querySelector('embed').style.display = 'show'
+    // setTimeout(() => {
+    //     document.querySelector('embed').style.display = 'show'
 
-    }, 500);
+    // }, 500);
+    
 }
 
 window.onscroll = function () { myFunction() };
