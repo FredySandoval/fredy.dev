@@ -1,0 +1,52 @@
+meta(charset="UTF-8")
+meta(http-equiv="X-UA-Compatible", content="IE=edge")
+link(rel='stylesheet', href='https://unpkg.com/normalize.css@8.0.1/normalize.css')
+link(rel='icon' type='image/svg+xml' href='/vite.svg')
+meta(name="viewport", content="width=device-width, initial-scale=1.0")
+noscript Javascript is disabled which is ok, but some features may not work properly.
+
+//- script(type="text/javascript" src="http://livejs.com/live.js")
+script
+  include ./live.js
+
+<!-- HTML Meta Tags -->
+title Fredy.Dev | A programming blog by Fredy Sandoval
+meta(name='author' content='Fredy Sandoval')
+meta(name="description" content="Fredy.dev is a web blog about programming, tutorials, guides, and other tools. ")
+meta(name='keywords' content='blog, programming, tutorials, code')
+meta(property="og:locale" content="en_US")
+meta(property="og:site_name" content="Fredy.Dev")
+
+<!-- Facebook Meta Tags -->
+meta(property="og:url" content="https://fredy.dev")
+meta(property="og:type" content="website")
+meta(property="og:title" content="Fredy.Dev | A programming blog by Fredy Sandoval")
+meta(property="og:description" content="Fredy.dev is a web blog where you can find post about programming, tutorials, guides, and other tools. ")
+meta(property="og:image" content="https://opentags.io/website_preview_thumbnail.png")
+
+<!-- Twitter Meta Tags -->
+meta(name="twitter:card" content="summary_large_image")
+meta(property="twitter:url" content="https://fredy.dev")
+meta(name="twitter:title" content="Fredy.Dev | A programming blog by Fredy Sandoval")
+meta(name="twitter:description" content="Fredy.dev is a web blog where you can find post about programming, tutorials, guides, and other tools. ")
+meta(name="twitter:image" content="https://opentags.io/website_preview_thumbnail.png")
+
+style.
+    *, *:before, *:after {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+style
+    include ./style.css
+script.
+    // This code prevents the “flash of incorrect theme” (FOIT).
+    let themeOverride = localStorage.getItem("theme");
+
+    if (
+      !themeOverride &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    )
+      themeOverride = "dark";
+    if (!themeOverride) themeOverride = "light";
+
+    document.documentElement.setAttribute("theme", themeOverride);

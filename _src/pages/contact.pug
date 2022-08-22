@@ -1,0 +1,108 @@
+extends ../templates/index-layout.pug
+
+block content
+    style.
+        .main-wrapper_external {
+            display: flex;
+            justify-content: center;
+            background-color: var(--content-background-color);
+            transition: background-color 0.3s ease-out;
+        }
+        .main-wrapper_internal {
+            width: 100%;
+            max-width: var(--page-width);
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main-wrapper_internal > main, .main-wrapper_internal > main a {
+            flex-grow: 1;
+            color: var(--article-title-color);
+            font-family: var(--font-family-1);
+        }
+        .main-wrapper_internal > aside {
+            border: 1px solid black;
+            min-width: 28%;
+            width: 28%;
+        }
+        @media screen and (max-width: 768px) {
+            .main-wrapper_internal {
+                flex-direction: column;
+            }
+            .main-wrapper_internal > main {
+                flex-grow: 1;
+            }
+            .main-wrapper_internal > aside {
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+        .container-form input[type=text], .container-form input[type=email], .container-form select, .container-form textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            outline: none;
+
+        }
+        .container-form input[type=submit] {
+            background-color: var(--header-underline-color);
+            color: var(--header-text-color);
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .container-form input[type=text]:focus, .container-form input[type=email]:focus, .container-form textarea:focus{
+            border: 1px solid var(--hover-text-color);
+        }
+        .container-form {
+            border-radius: 5px;
+            background-color: var(--article-background-color);
+            padding: 20px;
+
+            border: 1px solid var(--article-border-color);
+        }
+        .main-wrapper_internal .container-form {
+            max-width: 50%;
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .contact-form > h3 {
+            font-family: var(--font-family-1);
+        }
+        .contact-form > label {
+            color: var(--article-title-color);
+            font-family: var(--font-family-1);
+        }
+        .contact-form:has(:invalid) {
+            border: 10px solid red;
+        }
+    .main-wrapper_external
+        .main-wrapper_internal
+            main.contact-form
+                h3 Contact Form
+                .container-form
+                  form( onsubmit="return mySubmitFunction(event)")
+                    label(for='fname') Name
+                    input#fname(type='text' name='firstname' placeholder='Your name..')
+                    label(for="emails" ) Email:
+                    input(type="email" id="emails" name="emails" placeholder='Your email..' )
+                    label(for='subject') Subject
+                    textarea#subject(name='subject' placeholder='Write something..' style='height:200px')
+                    input(type='submit' value='Submit')
+    script.
+        function mySubmitFunction(e) {
+          e.preventDefault();
+          console.log('form submitted');
+          return false;
+        }

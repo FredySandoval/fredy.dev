@@ -1,0 +1,83 @@
+<style>
+    .h3-related {
+        color: var(--article-title-color);
+        font-family: var(--font-family-1);
+        margin: 0;
+        padding: 0;
+    }
+
+    .side-container-1 {
+        background-color: var(--article-background-color);
+        border-radius: var(--article-outer-border-radius);
+        border: 1px solid var(--article-border-color);
+        padding: 20px;
+        transition: background-color 0.3s ease-out;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .related-1 {
+        border: 1px solid var(--article-border-color);
+        border-radius: var(--article-border-radius);
+    }
+</style>
+
+{% if page.url != '/'%}
+{% if site.related_posts.size >= 1 %}
+<div class="side-container-1">
+    <h3 class="h3-related">Related Posts</h3>
+    {% for related_post in site.related_posts limit: 5 %}
+    <article class="a-block related-1" id="art-1">
+        <a class="a-overlay" href="{{ related_post.url }}" aria-labelledby="article-1-link-1"
+            aria-describedby="article-1-link-1" aria-label="Article link"></a>
+        <div class="article-right-1">
+            <div class="right-title-1">
+                <h3 class="h3-article-1 a-inner"><a href="{{ related_post.url }}" id="article-1-link-1"><span>{{
+                            related_post.title }}</span></a></h3>
+            </div>
+            <div class="right-tags-1 a-inner">
+                {% for tag in related_post.tags %}
+                <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+</div>
+{% endif %}
+{% endif %}
+
+<div class="side-container-1">
+
+    <style>
+        .font-h3-1 {
+            font-family: var(--font-family-1);
+            color: var(--article-title-color)
+        }
+
+        .site-tag a {
+            display: inline-block;
+            margin-right: 12px;
+        }
+
+        .tags-box {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    <h3 class="h3-article-1 font-h3-1">Tag Cloud</h3>
+    <div class="tags-box">
+
+        {% assign tags = site.tags | sort %}
+        {% for tag in tags %}
+        <span class="site-tag right-tags-1">
+            <a href="/tag/{{ tag | first | slugify }}/" class="tags-1"
+                style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+                {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+            </a>
+        </span>
+        {% endfor %}
+    </div>
+</div>

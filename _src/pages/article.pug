@@ -1,0 +1,46 @@
+extends ../templates/index-layout.pug
+
+block content
+    style.
+        .main-wrapper_external {
+            display: flex;
+            justify-content: center;
+            background-color: var(--content-background-color);
+            transition: background-color 0.3s ease-out;
+        }
+        .main-wrapper_internal {
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main-wrapper_internal > main {
+            flex-grow: 1;
+            margin-right: 15px;
+        }
+        .main-wrapper_internal > aside {
+            border: 1px solid black;
+            min-width: 28%;
+            width: 28%;
+        }
+        @media screen and (max-width: 768px) {
+            .main-wrapper_internal {
+                flex-direction: column;
+            }
+            .main-wrapper_internal > main {
+                flex-grow: 1;
+                margin-right: 0px;
+                /*margin-right: 30px;*/
+            }
+            .main-wrapper_internal > aside {
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+    .main-wrapper_external
+        .main-wrapper_internal
+            main
+                include ./page-1_content-structure.pug
+            aside
+                //- include ../molecules/aside-structure.pug

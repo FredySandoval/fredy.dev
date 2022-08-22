@@ -1,0 +1,63 @@
+style.
+    .l-1 {
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        color: var(--header-text-color);
+        margin-right: 10px;
+        border-radius: 50%;
+        padding-bottom: 1px;
+    }
+    .l-1:hover {
+        color: var(--hover-text-color);
+    }
+    input[type="checkbox"].toggle {
+        opacity: 0;
+        position: absolute;
+        left: -1000px;
+        top: -1000px;
+    }
+    input[type="checkbox"].toggle + label > div {
+        position: absolute;
+        transition: opacity 0.2s linear 0.2s;
+        display: flex;
+    }
+    input[type="checkbox"].toggle:checked + label > .open {
+        opacity: 1;
+    }
+    input[type="checkbox"].toggle:not(:checked) + label > .open {
+        opacity: 0;
+    }
+    input[type="checkbox"].toggle:checked + label > .close {
+        opacity: 0;
+    }
+    input[type="checkbox"].toggle:not(:checked) + label > .close {
+        opacity: 1;
+    }
+    @media only screen and (min-width: 768px) {
+        .header-hamburger-icon {
+            display: none;
+        }
+    }
+input(type="checkbox" id="check" class="toggle" name="hamburger-icon" onchange="handleHamburgerChange(this);" aria-hidden="true" tabindex="-1")
+label.l-1.header-hamburger-icon.hoverEffect(for="check" role="button" aria-label="navigation menu" aria-controls="navigation-menu" aria-hidden="true")
+    .open
+        include ./HamburgerIcon-close.pug
+    .close
+        include ./HamburgerIcon-open.pug
+script.
+    function handleHamburgerChange(checkbox) {
+        const body = document.querySelector('body');
+        if (checkbox.checked) {
+            // remove scroll on body element
+            document.querySelector('#navigation-menu').setAttribute('aria-hidden', 'false');
+            body.style.overflow = 'hidden';
+        } else {
+            body.style.overflow = '';
+            document.querySelector('#navigation-menu').setAttribute('aria-hidden', 'true');
+        }
+    }

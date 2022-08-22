@@ -1,0 +1,48 @@
+style.
+    .darkButton-style {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .theme {
+        display: none;
+    }
+    .show {
+        display: flex;
+    }
+.darkButton-style.hoverEffect( role="button" onclick="toggleTheme()" aria-label="Toggle page theme" aria-pressed="false")
+    span.theme.show(aria-hidden="false")
+        include ./DarkButtonIcon-light.pug
+    span.theme(aria-hidden="true")
+        include ./DarkButtonIcon-dark.pug
+    span.theme(aria-hidden="true")
+        include ./DarkButtonIcon-grape.pug
+script.
+    const themes_available = [ 'light', 'dark', 'grape'];
+    // sets the icons to the correct theme on page load
+    const loadDarkButtonIcon = () => {
+        const thtml = document.querySelector('html').getAttribute('theme');
+        if (thtml) {
+            let states = document.querySelectorAll('.theme');
+            let arr = Array.from(states);
+            let index = arr.findIndex( el => el.classList.contains('show') );
+            states[index].classList.remove('show');
+            let index2 = themes_available.indexOf(thtml);
+            states[index2].classList.add('show');
+        }
+    };
+    loadDarkButtonIcon()
+    function toggleTheme(){
+            const html = document.querySelector('html');
+            const theme = html.getAttribute('theme');
+            let index = themes_available.indexOf(theme);
+            let newIndex = index >= themes_available.length - 1 ? 0: index + 1;
+            html.setAttribute('theme', themes_available[newIndex]);
+            loadDarkButtonIcon();
+            localStorage.setItem('theme', themes_available[newIndex]);
+            let aria_pressed = document.querySelector('.darkButton-style').setAttribute('aria-pressed', 'true');
+    }

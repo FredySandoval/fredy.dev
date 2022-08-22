@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css"/>
+<link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+<link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="stylesheet" href="/assets/css/monokai.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FFF" media="(prefers-color-scheme: light)">
+
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Fredy.dev | A blog about programming" />
+<noscript>Javascript is disabled which is ok, but some features may not work properly.</noscript>
+<title></title>
+<script>
+  // This code prevents the “flash of incorrect theme” (FOIT).
+  let themeOverride = localStorage.getItem("theme");
+  
+  if (
+    !themeOverride &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  )
+    themeOverride = "dark";
+  if (!themeOverride) themeOverride = "light";
+  
+  document.documentElement.setAttribute("theme", themeOverride);
+</script>
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Fredy.dev A blog about programming | A blog were I write about programming, tutorials, and projects.</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Fredy.dev A blog about programming" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A blog were I write about programming, tutorials, and projects." />
+<meta property="og:description" content="A blog were I write about programming, tutorials, and projects." />
+<link rel="canonical" href="http://localhost:4000/about_me/" />
+<meta property="og:url" content="http://localhost:4000/about_me/" />
+<meta property="og:site_name" content="Fredy.dev A blog about programming" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Fredy.dev A blog about programming" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A blog were I write about programming, tutorials, and projects.","headline":"Fredy.dev A blog about programming","url":"http://localhost:4000/about_me/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <header class="main-page"> 
+  <div class="header-wrapper">
+    <input class="toggle" type="checkbox" id="check" name="hamburger-icon" onchange="handleHamburgerChange(this);" aria-hidden="true" tabindex="-1"/>
+    <label class="l-1 header-hamburger-icon hoverEffect" for="check" role="button" aria-label="navigation menu" aria-controls="navigation-menu" aria-hidden="true">
+      <div class="open"><svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+<g id="emojione-v1:heavy-multiplication-x">
+<path id="Vector" d="M18.9664 0.87029C16.6454 3.19266 14.3203 5.51544 12.0018 7.83821C9.67917 5.51665 7.35656 3.19388 5.03313 0.87029C2.34563 -1.81571 -1.8185 2.35001 0.867782 5.03601C3.18958 7.35635 5.51342 9.68034 7.83238 11.9999C5.51179 14.3214 3.18837 16.645 0.867782 18.9678C-1.8185 21.653 2.34766 25.8175 5.03313 23.1331C7.35493 20.8103 9.67755 18.488 12.0018 16.1652C14.3244 18.488 16.6454 20.8095 18.9664 23.1331C21.6531 25.8179 25.8176 21.653 23.1334 18.9682C20.8103 16.6454 18.4877 14.3239 16.1647 12.0003C18.4881 9.6779 20.8107 7.35513 23.1334 5.03235C25.8176 2.34716 21.6531 -1.81855 18.9664 0.867446" fill="currentColor" />
+</g>
+</svg>
+      </div>
+      <div class="close"><svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+<g id="icon-park-solid:hamburger">
+<mask id="mask0_105_154" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<g id="svgIDa">
+<g id="Group">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M23 10.9C23 5.43245 18.0753 1 12 1C5.9247 1 1 5.43245 1 10.9H23Z" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_2" d="M1 19.7H23V23H1V19.7Z" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path id="Vector_3" d="M1 14.2L4.00025 16.4L7.99985 14.2L12 16.4L16.0002 14.2L19.9997 16.4L23 14.2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_105_154)">
+<path id="Vector_4" d="M0 0H24V24H0V0Z" fill="currentColor" />
+</g>
+</g>
+</svg>
+      </div>
+    </label>
+    <script>
+      function handleHamburgerChange(checkbox) {
+          const body = document.querySelector('body');
+          if (checkbox.checked) {
+              // remove scroll on body element
+              document.querySelector('#navigation-menu').setAttribute('aria-hidden', 'false');
+              body.style.overflow = 'hidden';
+          } else {
+              body.style.overflow = '';
+              document.querySelector('#navigation-menu').setAttribute('aria-hidden', 'true');
+          }
+      }
+    </script>
+    <div class="header-logo">
+      <a class="logo-wrapper" href="/" aria-label="Fredy.dev home logo">
+        <div class="logo-icon"><svg width="40" height="40" viewBox="0 0 133 133" fill="none">
+<g id="drawing1 1">
+<g id="layer3">
+<path id="rect8598" fill-rule="evenodd" clip-rule="evenodd" d="M14.0773 6.64805C10.4221 10.9474 9.40377 83.2961 14.4776 92.3566C21.7002 95.6305 40.5931 91.6716 42.1352 96.4457C45.2139 104.127 40.5027 123.418 47.3981 127.104C54.2935 130.791 89.5505 128.934 102.325 122.978C115.1 117.023 117.999 110.166 120.032 104.208C122.066 98.2487 122.546 86.8035 121.367 80.9643C120.187 75.1252 117.491 67.1753 106.147 59.9492C94.8023 52.7231 84.8659 54.2497 81.3686 52.1534C77.8714 50.057 78.1563 42.9601 79.443 39.0069C80.7297 35.0536 87.3873 37.5515 89.619 32.0591C92.7455 24.3647 92.4686 9.02198 88.4757 7.06168C81.9751 3.87018 17.7325 2.34872 14.0773 6.64805V6.64805Z" stroke="#7e7e7e85" stroke-width="8" />
+</g>
+<g id="layer1">
+<g id="text7065">
+<path fill="currentColor" id="path8590" fill-rule="evenodd" clip-rule="evenodd" d="M22.1808 13.6191C24.4376 11.7109 80.21 12.4458 81.5977 13.6191C82.9854 14.7925 82.4844 26.988 81.5977 27.7362C80.711 28.4845 41.4841 26.4978 40.0991 27.6664C38.7142 28.8351 38.8795 39.7908 40.0991 40.822C41.3187 41.8532 66.1906 39.5347 67.7131 40.822C69.2356 42.1093 69.1134 49.653 67.7131 50.837C66.3128 52.021 41.4977 49.6545 40.0991 50.837C38.7005 52.0196 41.2984 83.1016 40.0991 84.858C38.9507 86.5398 23.8492 86.2686 22.1808 84.8579C19.9939 83.0088 19.9002 15.5474 22.1808 13.6191V13.6191Z"  />
+</g>
+<g id="text7849">
+<path fill="currentColor" id="path8584" d="M71.8619 73.6802C70.6428 74.2753 70.5988 103.001 71.8619 104.069C73.1251 105.137 74.4209 105.118 79.6163 104.426C84.8117 103.734 90.3453 102.729 95.3284 99.3932C97.8533 97.7028 98.9007 93.196 99.4202 91.2427C99.8263 88.5512 99.4968 87.2637 99.4075 85.5563C99.1948 81.2764 97.1062 79.9665 95.5273 78.6316C91.3301 75.4489 82.587 74.2736 77.8419 73.8361C77.8419 73.8361 73.0811 73.085 71.8619 73.6802V73.6802ZM52.853 60.3067C54.5212 58.8961 70.9174 59.8706 72.8033 59.9668C88.9534 60.791 96.5248 62.7371 102.972 67.5979C109.42 72.4318 112.644 80.0049 112.644 90.3173C112.644 100.683 109.404 108.297 102.925 113.158C96.4454 118.018 85.2605 119.408 79.491 120.121C73.7216 120.835 53.7597 121.215 52.853 120.449C51.9463 119.682 51.1848 61.7172 52.853 60.3067V60.3067Z" />
+</g>
+</g>
+</g>
+</svg>
+        </div>
+        <div class="logo-text"> 
+          <p>Fredy<strong>.dev</strong></p>
+        </div></a>
+    </div>
+    <div class="nav-wrapper"> 
+      
+      <div class="nav-center">
+        <nav id="navigation-menu" role="navigation" aria-label="navigation menu" aria-hidden="false">
+          <ul>
+            
+              <li><a class="hoverEffect " href="/">Blog</a></li>
+            
+              <li><a class="hoverEffect current-page-1" href="/about_me/">About me</a></li>
+            
+            <li>
+              <div class="dropdown hoverEffect">
+                <div class="dropbtn" role="button" aria-expanded="false" onmouseenter="ariaExpanded_dropbtn(this)">Categories</div>
+                <ul class="dropdown-content" aria-hidden="true" aria-label="submenu" tabindex="-1" onmouseleave="ariaCollapse_dropbtn(this)">
+                  
+                    <li> <a class="hoverEffect-dpbtn" href="/category/fruits" aria-label="fruits">fruits</a></li>
+                  
+                    <li> <a class="hoverEffect-dpbtn" href="/category/seeds" aria-label="seeds">seeds</a></li>
+                  
+                    <li> <a class="hoverEffect-dpbtn" href="/category/vegetables" aria-label="vegetables">vegetables</a></li>
+                  
+                </ul>
+              </div>
+              <script>
+                function ariaExpanded_dropbtn(el) {
+                  const dropdown = document.querySelector('.dropbtn');
+                  dropdown.setAttribute('aria-expanded', 'true');
+                  const menu1 = document.querySelector('.dropdown-content');
+                  menu1 .setAttribute('aria-hidden', 'false');
+                }
+                function ariaCollapse_dropbtn(el) {
+                  const dropdown = document.querySelector('.dropbtn');
+                  dropdown.setAttribute('aria-expanded', 'false');
+                  const menu1 = document.querySelector('.dropdown-content');
+                  menu1 .setAttribute('aria-hidden', 'true');
+                }
+              </script>
+            </li>
+          </ul>
+        </nav>
+        <div id="hamburger_overlay" onclick="handleHamburgerOverlay(this)"></div>
+      </div>
+      <script>
+        function handleHamburgerOverlay(el) {
+            document.querySelector('input.toggle').checked = false;
+            document.querySelector('body').style.overflow = '';
+        };
+        (function () {
+            var width = window.innerWidth
+            || document.documentElement.clientWidth
+            || document.body.clientWidth;
+            if (width < 768) {
+                document.querySelector('#navigation-menu').setAttribute('aria-hidden', 'true');
+            }
+        })();
+      </script>
+    </div>
+    <div class="header-icons">
+      
+      <div class="icons-wrapper"> <a class="hoverEffect twitter" href="https://twitter.com/fsandovaldev" target="_blank" aria-label="Link to Twitter"><svg width="24" height="22" viewBox="0 0 24 22" fill="none">
+<g id="twitter 1" clip-path="url(#clip0_89_803)">
+<path id="Vector" d="M24 2.58824C23.0798 3.04118 22.088 3.33882 21.0602 3.48118C22.1119 2.79529 22.9245 1.70824 23.3069 0.401176C22.315 1.04824 21.2156 1.50118 20.0564 1.76C19.1123 0.647059 17.7859 0 16.2801 0C13.4718 0 11.1773 2.48471 11.1773 5.55176C11.1773 5.99176 11.2251 6.41882 11.3088 6.82C7.05449 6.58706 3.26625 4.37412 0.744742 1.02235C0.302581 1.83765 0.0516255 2.79529 0.0516255 3.80471C0.0516255 5.73294 0.947897 7.44118 2.33413 8.41176C1.48566 8.41176 0.696941 8.15294 0.00382436 7.76471C0.00382436 7.76471 0.00382436 7.76471 0.00382436 7.80353C0.00382436 10.4953 1.77247 12.7471 4.11472 13.2518C3.68451 13.3812 3.2304 13.4459 2.76434 13.4459C2.44168 13.4459 2.11903 13.4071 1.80832 13.3424C2.45363 15.5294 4.32983 17.16 6.58843 17.1988C4.84369 18.7 2.63289 19.58 0.218929 19.58C-0.18738 19.58 -0.59369 19.5541 -1 19.5024C1.27055 21.0812 3.97132 22 6.86329 22C16.2801 22 21.4546 13.5365 21.4546 6.19882C21.4546 5.95294 21.4546 5.72 21.4426 5.47412C22.4465 4.69765 23.3069 3.71412 24 2.58824Z" fill="currentColor" />
+</g>
+<defs>
+<clipPath id="clip0_89_803">
+<rect width="24" height="22" fill="white" />
+</clipPath>
+</defs>
+</svg></a><a class="hoverEffect github" href="https://github.com/FredySandoval" target="_blank" aria-label="Link to Github"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+<g id="github 1">
+<path id="Vector" d="M12 0C10.4241 0 8.86371 0.318095 7.4078 0.936124C5.95189 1.55415 4.62902 2.46001 3.51472 3.60198C1.26428 5.90829 0 9.03631 0 12.2979C0 17.7336 3.444 22.3453 8.208 23.981C8.808 24.0793 9 23.6981 9 23.3661C9 23.0832 9 22.3084 9 21.2877C5.676 22.0256 4.968 19.6398 4.968 19.6398C4.416 18.2132 3.636 17.832 3.636 17.832C2.544 17.0695 3.72 17.0941 3.72 17.0941C4.92 17.1802 5.556 18.3608 5.556 18.3608C6.6 20.2301 8.364 19.6767 9.048 19.3815C9.156 18.5822 9.468 18.0411 9.804 17.7336C7.14 17.4262 4.344 16.3685 4.344 11.683C4.344 10.318 4.8 9.22344 5.58 8.35029C5.46 8.04284 5.04 6.76386 5.7 5.10364C5.7 5.10364 6.708 4.77159 9 6.35803C9.948 6.08747 10.98 5.9522 12 5.9522C13.02 5.9522 14.052 6.08747 15 6.35803C17.292 4.77159 18.3 5.10364 18.3 5.10364C18.96 6.76386 18.54 8.04284 18.42 8.35029C19.2 9.22344 19.656 10.318 19.656 11.683C19.656 16.3808 16.848 17.4139 14.172 17.7213C14.604 18.1025 15 18.8527 15 19.9964C15 21.6443 15 22.9725 15 23.3661C15 23.6981 15.192 24.0916 15.804 23.981C20.568 22.333 24 17.7336 24 12.2979C24 10.6829 23.6896 9.08376 23.0866 7.59171C22.4835 6.09966 21.5996 4.74395 20.4853 3.60198C19.371 2.46001 18.0481 1.55415 16.5922 0.936124C15.1363 0.318095 13.5759 0 12 0Z" fill="currentColor" />
+</g>
+</svg></a>
+        <div class="darkbutton">
+          
+          <div class="darkButton-style hoverEffect" role="button" onclick="toggleTheme()" aria-label="Toggle page theme" aria-pressed="false"><span class="theme show" aria-hidden="false"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" role="img" aria-label="light mode icon">
+<g id="start1 1">
+<path id="Vector" d="M12 18.366C11.0557 18.366 10.1538 18.1538 9.34748 17.7825C11.5332 16.7745 13.061 14.5676 13.061 12C13.061 9.43236 11.5332 7.22546 9.34748 6.21751C10.1538 5.84615 11.0557 5.63395 12 5.63395C13.6884 5.63395 15.3076 6.30466 16.5015 7.49852C17.6953 8.69239 18.366 10.3116 18.366 12C18.366 13.6884 17.6953 15.3076 16.5015 16.5015C15.3076 17.6953 13.6884 18.366 12 18.366ZM20.4881 8.48806V3.51194H15.5119L12 0L8.48806 3.51194H3.51194V8.48806L0 12L3.51194 15.5119V20.4881H8.48806L12 24L15.5119 20.4881H20.4881V15.5119L24 12L20.4881 8.48806Z" fill="currentColor" />
+</g>
+</svg></span><span class="theme" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" role="img" aria-label="dark mode icon">
+<g id="start1 2">
+<path id="Vector" d="M20.4881 8.48806V3.51194H15.5119L12 0L8.48806 3.51194H3.51194V8.48806L0 12L3.51194 15.5119V20.4881H8.48806L12 24L15.5119 20.4881H20.4881V15.5119L24 12L20.4881 8.48806ZM12 18.366C8.48806 18.366 5.63395 15.5119 5.63395 12C5.63395 8.48806 8.48806 5.63395 12 5.63395C15.5119 5.63395 18.366 8.48806 18.366 12C18.366 15.5119 15.5119 18.366 12 18.366ZM12 7.75597C9.65517 7.75597 7.75597 9.65517 7.75597 12C7.75597 14.3448 9.65517 16.244 12 16.244C14.3448 16.244 16.244 14.3448 16.244 12C16.244 9.65517 14.3448 7.75597 12 7.75597Z" fill="currentColor" />
+</g>
+</svg></span><span class="theme" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" role="img" aria-label="grape theme mode icon">
+<g id="mdi:fruit-grapes" clip-path="url(#clip0_109_174)">
+<path id="Vector" d="M9.91098 11.0926C8.92851 12.2286 9.06633 13.9724 10.2172 14.9678C11.3682 15.9632 13.1136 15.8483 14.0961 14.7123C15.0786 13.5764 14.9408 11.8325 13.7899 10.8371C12.6389 9.84171 10.8935 9.95669 9.91098 11.0926ZM19.0213 15.3617C20.1722 16.3572 20.31 18.101 19.3275 19.2369C18.3451 20.3729 16.5996 20.4879 15.4487 19.4924C14.2977 18.497 14.1599 16.7532 15.1424 15.6172C16.1249 14.4813 17.8704 14.3663 19.0213 15.3617ZM8.55844 6.31252C9.70935 7.30793 9.84717 9.05177 8.8647 10.1877C7.88223 11.3237 6.13674 11.4386 4.98582 10.4432C3.83491 9.4478 3.6971 7.70397 4.67957 6.56802C5.66203 5.43208 7.40753 5.3171 8.55844 6.31252ZM14.7468 4.44412C15.8977 5.43953 16.0355 7.18337 15.053 8.31932C14.0706 9.45526 12.3251 9.57024 11.1741 8.57482C10.0232 7.57941 9.88542 5.83557 10.8679 4.69962C11.8504 3.56368 13.5959 3.4487 14.7468 4.44412ZM19.9782 8.96873C21.1291 9.96415 21.2669 11.708 20.2844 12.8439C19.302 13.9799 17.5565 14.0948 16.4056 13.0994C15.2547 12.104 15.1168 10.3602 16.0993 9.22424C17.0818 8.08829 18.8273 7.97332 19.9782 8.96873ZM7.60153 12.7055C8.75244 13.7009 8.89026 15.4448 7.90779 16.5807C6.92532 17.7167 5.17983 17.8316 4.02892 16.8362C2.878 15.8408 2.74019 14.097 3.72266 12.961C4.70513 11.8251 6.45062 11.7101 7.60153 12.7055ZM12.8329 17.2301C13.9839 18.2256 14.1217 19.9694 13.1392 21.1053C12.1567 22.2413 10.4112 22.3563 9.26033 21.3608C8.10942 20.3654 7.9716 18.6216 8.95407 17.4856C9.93654 16.3497 11.682 16.2347 12.8329 17.2301ZM6.64462 19.0985C7.79554 20.094 7.93335 21.8378 6.95088 22.9737C5.96841 24.1097 4.22292 24.2247 3.07201 23.2292C1.9211 22.2338 1.78328 20.49 2.76575 19.354C3.74822 18.2181 5.49371 18.1031 6.64462 19.0985ZM18.2454 0.610442L20.1542 0.0951678C21.5629 3.11867 18.5568 7.01729 18.1995 7.43036L16.6301 6.07298C17.24 5.15635 19.159 2.30318 18.2454 0.610442V0.610442Z" fill="currentColor" />
+</g>
+<defs>
+<clipPath id="clip0_109_174">
+<rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)" />
+</clipPath>
+</defs>
+</svg></span></div>
+          <script>
+            const themes_available = [ 'light', 'dark', 'grape'];
+            // sets the icons to the correct theme on page load
+            const loadDarkButtonIcon = () => {
+                const thtml = document.querySelector('html').getAttribute('theme');
+                if (thtml) {
+                    let states = document.querySelectorAll('.theme');
+                    let arr = Array.from(states);
+                    let index = arr.findIndex( el => el.classList.contains('show') );
+                    states[index].classList.remove('show');
+                    let index2 = themes_available.indexOf(thtml);
+                    states[index2].classList.add('show');
+                }
+            };
+            loadDarkButtonIcon()
+            function toggleTheme(){
+                    const html = document.querySelector('html');
+                    const theme = html.getAttribute('theme');
+                    let index = themes_available.indexOf(theme);
+                    let newIndex = index >= themes_available.length - 1 ? 0: index + 1;
+                    html.setAttribute('theme', themes_available[newIndex]);
+                    loadDarkButtonIcon();
+                    localStorage.setItem('theme', themes_available[newIndex]);
+                    let aria_pressed = document.querySelector('.darkButton-style').setAttribute('aria-pressed', 'true');
+            }
+          </script>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+    <h1>about me page</h1> 
+    <footer>
+  <div class="footer_style-1">
+    <div class="left-footer-1">
+      <hr />
+      <h3>fredy.dev — A site built from scratch by Fredy Sandoval.</h3>
+      <a href="/privacy_policy/"  >Privacy Policy</a>
+      <a href="/terms/"  >Terms</a>
+      <a href="/cookies/"  >Cookies</a>
+      <a href="/contact/"  >Contact</a>
+      <br /><span>Copyright © 2022 Fredy Sandoval. All rights reserved.</span><br />
+      <hr />
+    </div>
+    <div class="right-footer-1">
+      <div class="animation-wrapper">
+        <div class="centerXY">
+          <div class="container1" style="--box-color:160; --tX:170%; --tY: 0%;">
+            <div class="block1"></div>
+          </div>
+          <div class="container1" style="--box-color:70; --tX:50%; --tY: 120%;">
+            <div class="block1"></div>
+          </div>
+          <div class="container1" style="--box-color:220; --tX:-100%; --tY: -100%;">
+            <div class="block1"></div>
+          </div>
+          <div class="container1" style="--box-color:10; --tX:50%; --tY: 0%;">
+            <div class="block1 vibrate-2"></div>
+          </div>
+          <div class="container1" style="--box-color:50; --tX:50%; --tY: -120%;">
+            <div class="block1"></div>
+          </div>
+          <div class="container1" style="--box-color:120; --tX:-70%; --tY: 0%;">
+            <div class="block1"></div>
+          </div>
+          <div class="container1" style="--box-color:190; --tX:190%; --tY: 100%;">
+            <div class="block1"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

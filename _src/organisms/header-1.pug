@@ -1,0 +1,46 @@
+style.
+    header.main-page {
+        border-bottom: 2px solid var(--header-underline-color);
+        background-color: var(--header-background-color);
+        transition: background-color 0.3s;
+        display: flex;
+        justify-content: center; 
+        position: relative;
+        
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    .header-wrapper {
+        display: flex;
+        width: 100%;
+        max-width: var(--page-width);
+        padding: 30px 10px 30px 10px;
+    }
+    .header-wrapper > div {
+    }
+    .header-hamburger-icon  {
+        max-width: 40px;
+    }
+    .header-logo {
+        flex-grow: 1;
+        max-width: 180px;
+        min-width: 130px;
+    }
+    .nav-wrapper {
+        flex-grow: 1;
+    }
+    .header-icons {
+        flex-grow: 1;
+        max-width: 160px;
+    }
+header.main-page 
+    .header-wrapper
+        include ../atoms/HamburgerIcon-structure.pug
+        .header-logo
+            include ../atoms/Logo.pug
+        .nav-wrapper 
+            include ../molecules/Nav-structure.pug
+        .header-icons
+            include ../atoms/HeaderIcons.pug

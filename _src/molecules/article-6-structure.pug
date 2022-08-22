@@ -1,0 +1,88 @@
+style.
+    .article_style-6 {
+        display: flex;
+        border: 1px solid var(--article-border-color);
+        padding: var(--article-main-padding);
+        border-radius: var(--article-outer-border-radius);
+        flex-direction: column;
+        background-color: var(--article-background-color);
+    }
+
+    .article_style-6 > article {
+        display: flex;
+        border: 1px solid var(--article-border-color);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .article_style-6 > article:not(:last-child) {
+        margin-bottom: 10px;
+
+    }
+    .left-6 { 
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-6 {
+        width: 30%;
+    }
+    .right-6 > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .left-title-6 {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+    }
+    h3.h3-article-6 {
+        margin: 0px;
+    }
+    .left-tags-6 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left-tags-6 > a {
+        margin-right: 5px;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+    @media (max-width: 768px) {
+        .article_style-6 {
+            flex-direction: column;
+            /*padding: 0px; */
+            border-radius: 0px;
+        }
+        .left-6, .right-6 {
+            width: 100%;
+            border-radius: 0px;
+            padding-left: 0px;
+            padding-bottom: 0px;
+        }
+        .article_style-6 > article {
+            padding: 0px;
+            /*border-radius: 0px;*/
+        }
+    }
+.article_style-6
+    mixin article-6(id)
+        article.a-block
+            a.a-overlay(href="##" aria-labelledby=`article-6-link-${id}` aria-label="Article link")
+            .left-6
+                .article-right-1
+                            .right-title-1
+                                h3.h3-article-1.a-inner
+                                    a(href="###" id=`article-6-link-${id}`)
+                                        span Title Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            .right-tags-1.a-inner
+                                a.tags-1(href='#') #Javascript 
+                                a.tags-1(href='#') #Coding 
+                                a.tags-1(href='#') #Programming 
+            .right-6.a-inner
+                img(src="/image1.webp" alt="Article thumbnail")
+    +article-6('1')
+    +article-6('2')
+    +article-6('3')
+    +article-6('4')
+    +article-6('5')

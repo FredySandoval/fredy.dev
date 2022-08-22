@@ -1,0 +1,103 @@
+style.
+    .article_style-5 {
+        border: 1px solid var(--article-border-color);
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: var(--article-background-color);
+        border-radius: var(--article-border-radius);
+    }
+    .left-5 {
+        border-radius: var(--article-border-radius);
+        overflow: hidden;
+        width: 50%;
+    }
+    .right-5 {
+        padding-right: var(--article-main-padding);
+        width: 50%;
+    }
+    @media(max-width: 900px) {
+        .article_style-5 {
+            flex-direction: column;
+        }
+        .left-5, .right-5 {
+            width: 100%;
+            padding-right: 0px;
+        }
+    }
+    @media( max-width: 768px) {
+        .article_style-5 {
+            border-radius: 0px;
+        }
+    }
+    /* article 4*/
+    .right-5 {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+    }
+    .right-5 > article:nth-child(2) {
+        margin-top: var(--article-main-padding);
+        margin-bottom: var(--article-main-padding);
+    }
+    .right-5 > article {
+        border: 1px solid var(--article-border-color);
+        border-radius: var(--article-border-radius);
+        overflow: hidden;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    @media(max-width: 900px) {
+        .left-5 {
+            margin-bottom: var(--article-main-padding);
+        }
+    }
+    .left-5 {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--article-border-color);
+    }
+    .image-wrapper-5 {
+        flex-grow: 1;
+        position: relative;
+    }
+    .image-wrapper-5 > img {
+       height: 100%; 
+       width: 100%;
+       object-fit: cover;
+       position: absolute;
+    }
+.article_style-5
+    article.left-5.a-block
+        a.a-overlay(href="###" aria-label="Article link")
+        .image-wrapper-5.a-inner
+            img( src="/image4.webp" alt="Article Thumbnail")
+        .container-5
+            .article-right-1
+                        .right-title-1
+                            h3.h3-article-1.a-inner
+                                a(href="###" id=`article-5-link-${id}`)
+                                    span Title Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        .right-tags-1.a-inner
+                            a.tags-1(href='#') #Javascript 
+                            a.tags-1(href='#') #Coding 
+                            a.tags-1(href='#') #Programming 
+    .right-5
+        mixin article-5(id)
+            article.a-block
+                a.a-overlay(href="###" aria-labelledby=`article-5-link-${id}` aria-label="Article link")
+                .article-right-1
+                    .right-title-1
+                        h3.h3-article-1.a-inner
+                            a(href="###" id=`article-5-link-${id}`)
+                                span Title Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    .right-tags-1.a-inner
+                        a.tags-1(href='#') #Javascript 
+                        a.tags-1(href='#') #Coding 
+                        a.tags-1(href='#') #Programming 
+        +article-5('1')
+        +article-5('2')
+        +article-5('3')

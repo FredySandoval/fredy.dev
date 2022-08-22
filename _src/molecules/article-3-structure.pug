@@ -1,0 +1,122 @@
+style.
+    .article_style-3 {
+        display: flex;
+        border-radius: var(--article-outer-border-radius);
+        flex-direction: row;
+        border: 1px solid var(--article-border-color);
+        background-color: var(--article-background-color);
+        transition: all 0.3s ease-in-out;
+        padding: var(--article-main-padding);
+    }
+    .article_style-3 > div {
+    }
+    .right-3 {
+        border: 1px solid var(--article-border-color);
+        border-radius: var(--article-border-radius);
+        padding: var(--article-main-padding);
+        cursor: pointer;
+    }
+    .left-3 {
+        padding-right: var(--article-main-padding);
+    }
+    @media ( max-width: 480px ) {
+        .article_style-3 {
+            flex-direction: column-reverse;
+        }
+        .left-3 {
+            width: 100%;
+            min-width: 100%;
+            padding-right: 0px;
+        }
+        .right-3 {
+            margin-bottom: var(--article-main-padding);
+            height: 400px;
+        }
+    }
+    .left-3 > article {
+        border-radius: var(--article-border-radius);
+        border: 1px solid var(--article-border-color);
+    }
+    .left-3 > article:not(:last-child) {
+        margin-bottom: var(--article-main-padding);
+    }
+.article_style-3
+    .left-3
+        mixin article-3(id)
+            article.a-block
+                a.a-overlay( href="###" aria-labelledby=`article-3-link-${id}` aria-label="Article link")
+                .article-right-1
+                        .right-title-1
+                            h3.h3-article-1.a-inner
+                                a(href="###" id=`article-3-link-${id}`)
+                                    span Title Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        .right-tags-1.a-inner
+                            a.tags-1(href='#') #Javascript 
+                            a.tags-1(href='#') #Coding 
+                            a.tags-1(href='#') #Programming 
+        +article-3('1')
+        +article-3('2')
+        +article-3('3')
+    style.
+        .right-3 {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .right-3 .image-wrapper {
+            height: 85%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .right-3 .text-wrapper {
+            height: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-3 .text-wrapper h3 {
+            margin: 0;
+            padding: 0;
+            color: var(--article-title-color);
+        }
+        .image-wrapper > img {
+            width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            position: absolute;
+        }
+    style
+        include ./image-modal-1.css
+
+    .right-3( onclick="handleModal(this)")
+        .image-wrapper
+            img#myImg( src="/meme1.webp", alt="Meme of the day" )
+            //- The modal
+            #myModal.modal
+                span.close-2 &times;
+                img#img01.modal-content
+                //- #caption
+
+        .text-wrapper 
+            h3 meme of the day
+    
+    script.
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        var span = document.getElementsByClassName("close-2")[0];
+
+        function handleModal() {
+            if ( !modal.style.display || modal.style.display === "none") {
+                modal.style.display = "block";
+            } else {
+                modal.style.display = "none";
+            }
+            modalImg.src = img.src;
+        }

@@ -1,0 +1,23 @@
+style.
+   .articles-wrapper {
+        margin-right: 10px;
+   }
+   .articles-wrapper > div {
+        margin-bottom: 10px;
+   }
+   @media (max-width: 768px) {
+        .articles-wrapper {
+            margin-right: 0px;
+        }
+   }
+.articles-wrapper
+    include ./article-1-structure.pug
+    include ./article-2-structure.pug
+    include ./article-3-structure.pug
+     //-     include ./article-2-structure.pug
+    +article_style-2('3-a')
+    include ./article-4-structure.pug
+    //-     include ./article-2-structure.pug
+    +article_style-2('4-a')
+    include ./article-5-structure.pug
+    include ./article-6-structure.pug

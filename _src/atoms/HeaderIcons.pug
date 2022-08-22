@@ -1,0 +1,40 @@
+style.
+    .icons-wrapper {
+        display: flex;
+        justify-content: space-between;
+        color: var(--header-text-color);
+    }
+    .icons-wrapper > div {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .icons-wrapper > a {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    @media only screen and (max-width: 340px) {
+        .icons-wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .github, .twitter {
+        border-radius: 50%;
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+    }
+.icons-wrapper 
+    a.hoverEffect.twitter(href="https://twitter.com/fsandovaldev" target="_blank" aria-label="Link to Twitter")
+        include ./TwitterIcon.pug
+    a.hoverEffect.github(href="https://github.com/FredySandoval" target="_blank" aria-label="Link to Github") 
+        include ./GithubIcon.pug 
+    .darkbutton
+        include ./DarkButton-structure.pug

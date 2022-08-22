@@ -1,0 +1,225 @@
+style.
+    .article_style-1 {
+        display: flex;
+        background-color: var(--article-background-color);
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+        border-radius: var(--article-outer-border-radius);
+        border: 1px solid var(--article-border-color);
+        padding: var(--article-main-padding);
+    }
+    /*@media (max-width: 768px ) {
+        .article_style-1 {
+            border-radius: 0px;
+        }
+    }*/
+    .left-1 {
+        width: 45%;
+        min-width: 45%;
+        border-radius: var(--article-border-radius);
+        overflow: hidden;
+    }
+    .right-1 {
+        flex-grow: 1;
+    }
+    .left-1 > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    article {
+        font-family: var(--font-family-1);
+    }
+    /*
+    .left-wrapper {
+        padding: 20px;
+    }
+    .left-image-thumbnail {
+        border-radius: 20px;
+        aspect-ratio: 1.6180/1;
+        overflow: hidden;
+    }
+    .left-image-thumbnail > a > img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .left-tags {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+    }
+    .left-tags > .tag {
+        border-radius: 10px;
+        padding: 2px;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .right > a {
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding: 10px;
+        background-color: lightgray;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    @media (max-width: 900px) {
+        .article_style-1 {
+            border-radius: 0px;
+            flex-direction: column;
+        }
+        .left-wrapper {
+            padding: 0px 0px 0px 0px;
+        }
+        .article_style-1 > .left {
+            border: 3px solid blue;
+            width: 100%;
+        }
+        .left-image-thumbnail {
+            border-radius: 0px;
+            overflow: hidden;
+        }
+        .left-tags {
+            padding-left: 0px;
+            font-size: 13px;
+        }
+        .right > a {
+            font-size: 13px;
+        }
+    }*/
+    /* from: a link inside a link trick: https://stackoverflow.com/a/46707009 */
+    .a-block {
+      position:relative;
+    }
+    .a-block .a-overlay {
+      position:absolute;
+      opacity: 0;
+      left:0;
+      top:0;
+      bottom:0;
+      right:0;
+    }
+    .a-block .a-inner {
+      /* position:relative; */
+        pointer-events: none;
+        /*z-index: 1;*/
+    }
+    .a-block .a-inner a {
+      pointer-events: all;
+      position:relative;
+    }
+    /* end */
+    h3.h3-article-1{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    h3.h3-article-1 a, a.tags-1 {
+        text-decoration: none;
+        color: var(--article-title-color);
+    }
+    a.tags-1 {
+        color: var(--tags-text-color)
+    }
+    h3.h3-article-1 a:hover, a.tags-1:hover {
+        text-decoration: underline;
+        color: var(--hover-text-color);
+    }
+    .right-1 > article {
+        border: 1px solid var(--article-border-color);
+        margin-left: 10px;
+        border-radius: var(--article-border-radius);
+    }
+    .right-1 > article:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .right-tags-1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .right-tags-1 > a.tags-1 {
+        margin-right: 5px;
+        padding: 5px;
+        margin-top: 5px;
+        border-radius: var(--tags-border-radius);
+        background-color: var(--tags-background-color);
+    }
+    .hidden-1 {
+        display: none;
+
+    }
+    .show-1 {
+        display: block;
+    }
+    .article-right-1 {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-grow: 1;
+    }
+    @media only screen and (max-width: 680px) {
+       .article_style-1 {
+            flex-direction: column;
+        }
+       .article_style-1 > a {
+            margin-bottom: 10px;
+       }
+        .left-1 {
+            width: 100%;
+            min-width: 100%;
+        }
+        .right-1 {
+            flex-grow: 1;
+       }
+       .right-1 > article {
+          margin-left: 0px; 
+       }
+    }
+
+.article_style-1
+    a.left-1(href='/pages/article.html')
+        img.hidden-1( src="/image1.webp" aria-labelledby="article-1-link-1" )
+        img.show-1( src="/image2.webp" aria-labelledby="article-1-link-2" )
+        img.hidden-1( src="/image3.webp" aria-labelledby="article-1-link-3" )
+    .right-1
+        mixin article-1(id)
+            article.a-block#art-1( onmouseenter="handle_img_switch_1(this)")
+                a.a-overlay(href="/pages/article.html" aria-labelledby=`article-1-link-${id}` aria-describedby=`article-1-link-${id}` aria-label="Article link")
+                .article-right-1
+                    .right-title-1
+                        h3.h3-article-1.a-inner
+                            a(href="/pages/article.html" id=`article-1-link-${id}`)
+                                span Title Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    .right-tags-1.a-inner
+                        a.tags-1(href='#') #Javascript 
+                        a.tags-1(href='#') #Coding 
+                        a.tags-1(href='#') #Programming 
+        +article-1('1')
+        +article-1('2')
+        +article-1('3')
+script.
+    function handle_img_switch_1(el){
+        const img = document.querySelectorAll('a.left-1 > img');
+        let arr = Array.from(img);
+
+        arr.forEach(function(item, index){
+            if(item.classList.contains('show-1')){
+                item.classList.remove('show-1');
+                item.classList.add('hidden-1');
+            }
+        });
+        const aria = el.firstElementChild.getAttribute('aria-labelledby')
+        const show = document.querySelector(`a.left-1 > img[aria-labelledby="${aria}"]`);
+        show.classList.remove('hidden-1');
+        show.classList.add('show-1');
+    }

@@ -1,0 +1,35 @@
+style.
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+    .logo-wrapper {
+        display: flex;
+        text-decoration: none;
+        color: var(--header-text-color);
+        transition: color .3s ease-in-out;
+    }
+    .logo-wrapper:hover{
+        color: var(--hover-text-color)
+    }
+    .logo-icon {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-text {
+        flex-grow: 1;
+        display: flex; 
+        align-items: center;
+        font-family: 'Fredoka', sans-serif;
+        font-size: 1.5rem;
+    }
+    .logo-text > p {
+        padding-left: 8px;
+        margin: 0;
+    }
+a(href="/pages/" aria-label="Fredy.dev home logo").logo-wrapper
+    .logo-icon
+        include ./LogoIcon.pug 
+    .logo-text 
+        p Fredy
+            strong .dev

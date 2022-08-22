@@ -1,0 +1,4 @@
+- name: Blog
+  link: /
+- name: About me
+  link: /about_me/
