@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css"/>
 
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
@@ -52,6 +51,7 @@
 
 </head>
 <body>
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css"/>
     <header class="main-page"> 
   <div class="header-wrapper">
     <input class="toggle" type="checkbox" id="check" name="hamburger-icon" onchange="handleHamburgerChange(this);" aria-hidden="true" tabindex="-1"/>
@@ -130,11 +130,15 @@
                 <div class="dropbtn" role="button" aria-expanded="false" onmouseenter="ariaExpanded_dropbtn(this)">Categories</div>
                 <ul class="dropdown-content" aria-hidden="true" aria-label="submenu" tabindex="-1" onmouseleave="ariaCollapse_dropbtn(this)">
                   
-                    <li> <a class="hoverEffect-dpbtn" href="/category/fruits" aria-label="fruits">fruits</a></li>
+                    <li> <a class="hoverEffect-dpbtn" href="/category/vegetables" aria-label="vegetables">vegetables</a></li>
+                  
+                    <li> <a class="hoverEffect-dpbtn" href="/category/programming" aria-label="programming">programming</a></li>
+                  
+                    <li> <a class="hoverEffect-dpbtn" href="/category/code" aria-label="code">code</a></li>
                   
                     <li> <a class="hoverEffect-dpbtn" href="/category/seeds" aria-label="seeds">seeds</a></li>
                   
-                    <li> <a class="hoverEffect-dpbtn" href="/category/vegetables" aria-label="vegetables">vegetables</a></li>
+                    <li> <a class="hoverEffect-dpbtn" href="/category/fruits" aria-label="fruits">fruits</a></li>
                   
                 </ul>
               </div>
