@@ -78,37 +78,16 @@ title: "Fredy's Blog"
       show.classList.add('show-1');
     }
   </script>
-  {% if site.posts[4] %}
+  {% if site.posts[3] %}
   <div class="article_style-2">
-    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[4].url }}"
-        aria-labelledby="article-2-link-1" aria-label="Article link"></a>
-      <div class="left-wrapper-2">
-        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[4].image }}"
-            alt="Article image thumbnail" /></div>
-        <div class="article-right-1">
-          <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[4].url }}" id="article-2-link-1"><span>{{
-                  site.posts[4].title }}</span></a></h3>
-          </div>
-          <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[4].tags %}
-            <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-    </article>
-    {% endif %}
-
-    {% if site.posts[3] %}
     <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[3].url }}"
-        aria-labelledby="article-2-link-2" aria-label="Article link"></a>
+        aria-labelledby="article-2-link-1" aria-label="Article link"></a>
       <div class="left-wrapper-2">
         <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[3].image }}"
             alt="Article image thumbnail" /></div>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[3].url }}" id="article-2-link-2"><span>{{
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[3].url }}" id="article-2-link-1"><span>{{
                   site.posts[3].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
@@ -121,19 +100,40 @@ title: "Fredy's Blog"
     </article>
     {% endif %}
 
-    {% if site.posts[2] %}
-    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
-        aria-labelledby="article-2-link-3" aria-label="Article link"></a>
+    {% if site.posts[4] %}
+    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[4].url }}"
+        aria-labelledby="article-2-link-2" aria-label="Article link"></a>
       <div class="left-wrapper-2">
-        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[2].image }}"
+        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[4].image }}"
             alt="Article image thumbnail" /></div>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-2-link-3"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[4].url }}" id="article-2-link-2"><span>{{
+                  site.posts[4].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[4].tags %}
+            <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </article>
+    {% endif %}
+
+    {% if site.posts[5] %}
+    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[5].url }}"
+        aria-labelledby="article-2-link-3" aria-label="Article link"></a>
+      <div class="left-wrapper-2">
+        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[5].image }}"
+            alt="Article image thumbnail" /></div>
+        <div class="article-right-1">
+          <div class="right-title-1">
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[5].url }}" id="article-2-link-3"><span>{{
+                  site.posts[5].title }}</span></a></h3>
+          </div>
+          <div class="right-tags-1 a-inner">
+            {% for tag in site.posts[5].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -143,18 +143,19 @@ title: "Fredy's Blog"
   </div>
   {% endif %}
 
+  {% if false%}
   <div class="article_style-3">
     <div class="left-3">
-      {% if site.posts[2] %}
-      <article class="a-block"><a class="a-overlay" href="{{ site.posts[2].url }}" aria-labelledby="article-3-link-1"
+      {% if site.posts[6] %}
+      <article class="a-block"><a class="a-overlay" href="{{ site.posts[6].url }}" aria-labelledby="article-3-link-1"
           aria-label="Article link"></a>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-3-link-1"><span>{{
-                  site.posts[2].title | truncate: 50, '...'}}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[6].url }}" id="article-3-link-1"><span>{{
+                  site.posts[6].title | truncate: 50, '...'}}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[6].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -162,16 +163,16 @@ title: "Fredy's Blog"
       </article>
       {% endif %}
 
-      {% if site.posts[2] %}
-      <article class="a-block"><a class="a-overlay" href="{{ site.posts[2].url }}" aria-labelledby="article-3-link-2"
+      {% if site.posts[7] %}
+      <article class="a-block"><a class="a-overlay" href="{{ site.posts[7].url }}" aria-labelledby="article-3-link-2"
           aria-label="Article link"></a>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-3-link-2"><span>{{
-                  site.posts[2].title | truncate: 50, '...'}}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[7].url }}" id="article-3-link-2"><span>{{
+                  site.posts[7].title | truncate: 50, '...'}}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[7].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -179,16 +180,16 @@ title: "Fredy's Blog"
       </article>
       {% endif %}
 
-      {% if site.posts[2] %}
-      <article class="a-block"><a class="a-overlay" href="{{ site.posts[2].url }}" aria-labelledby="article-3-link-3"
+      {% if site.posts[8] %}
+      <article class="a-block"><a class="a-overlay" href="{{ site.posts[8].url }}" aria-labelledby="article-3-link-3"
           aria-label="Article link"></a>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-3-link-3"><span>{{
-                  site.posts[2].title | truncate: 50, '...'}}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[8].url }}" id="article-3-link-3"><span>{{
+                  site.posts[8].title | truncate: 50, '...'}}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[8].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -227,22 +228,24 @@ title: "Fredy's Blog"
       }
     </script>
   </div>
+  {% endif %}
 
+  {% if false%}
   <div class="article_style-2">
 
-    {% if site.posts[2] %}
-    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
+    {% if site.posts[9] %}
+    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[9].url }}"
         aria-labelledby="article-3-a-link-1" aria-label="Article link"></a>
       <div class="left-wrapper-2">
-        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[2].image }}"
+        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[9].image }}"
             alt="Article image thumbnail" /></div>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-3-a-link-1"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[9].url }}" id="article-3-a-link-1"><span>{{
+                  site.posts[9].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[9].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -251,19 +254,19 @@ title: "Fredy's Blog"
     </article>
     {% endif %}
 
-    {% if site.posts[2] %}
-    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
+    {% if site.posts[10] %}
+    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[10].url }}"
         aria-labelledby="article-3-a-link-2" aria-label="Article link"></a>
       <div class="left-wrapper-2">
-        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[2].image }}"
+        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[10].image }}"
             alt="Article image thumbnail" /></div>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-3-a-link-2"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[10].url }}" id="article-3-a-link-2"><span>{{
+                  site.posts[10].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[10].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -272,19 +275,19 @@ title: "Fredy's Blog"
     </article>
     {% endif %}
 
-    {% if site.posts[2] %}
-    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
+    {% if site.posts[11] %}
+    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[11].url }}"
         aria-labelledby="article-3-a-link-3" aria-label="Article link"></a>
       <div class="left-wrapper-2">
-        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[2].image }}"
+        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[11].image }}"
             alt="Article image thumbnail" /></div>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-3-a-link-3"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[11].url }}" id="article-3-a-link-3"><span>{{
+                  site.posts[11].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[11].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -293,19 +296,21 @@ title: "Fredy's Blog"
     </article>
     {% endif %}
   </div>
+  {% endif %}
 
+  {% if false%}
   <div class="article_style-4">
-    {% if site.posts[2] %}
-    <article class="left-4 a-block"><a class="a-overlay" href="{{ site.posts[2].url }}" aria-label="Article link"></a>
-      <div class="image-wrapper-4 a-inner"><img src="{{ site.posts[2].image }}" alt="Article thumbnail" /></div>
+    {% if site.posts[12] %}
+    <article class="left-4 a-block"><a class="a-overlay" href="{{ site.posts[12].url }}" aria-label="Article link"></a>
+      <div class="image-wrapper-4 a-inner"><img src="{{ site.posts[12].image }}" alt="Article thumbnail" /></div>
       <div class="container-4">
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }} id=" article-4-link-undefined"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[12].url }}" id="article-4-link-undefined"><span>{{
+                  site.posts[12].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[12].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -315,48 +320,48 @@ title: "Fredy's Blog"
     {% endif %}
 
     <div class="right-4">
-      {% if site.posts[2] %}
-      <article class="a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
+      {% if site.posts[13] %}
+      <article class="a-block"><a class="a-overlay" href="{{ site.posts[13].url }}"
           aria-labelledby="article-4-link-1"></a>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-4-link-1"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[13].url }}" id="article-4-link-1"><span>{{
+                  site.posts[13].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[13].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
         </div>
       </article>
       {% endif %}
-      {% if site.posts[2] %}
-      <article class="a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
+      {% if site.posts[14] %}
+      <article class="a-block"><a class="a-overlay" href="{{ site.posts[14].url }}"
           aria-labelledby="article-4-link-2"></a>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-4-link-2"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[14].url }}" id="article-4-link-2"><span>{{
+                  site.posts[14].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[14].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
         </div>
       </article>
       {% endif %}
-      {% if site.posts[2] %}
-      <article class="a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
+      {% if site.posts[15] %}
+      <article class="a-block"><a class="a-overlay" href="{{ site.posts[15].url }}"
           aria-labelledby="article-4-link-3"></a>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-4-link-3"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[15].url }}" id="article-4-link-3"><span>{{
+                  site.posts[15].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[15].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -365,39 +370,42 @@ title: "Fredy's Blog"
       {% endif %}
     </div>
   </div>
+  {% endif %}
+
+  {% if false%}
   <div class="article_style-2">
-    {% if site.posts[2] %}
-    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
+    {% if site.posts[16] %}
+    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[16].url }}"
         aria-labelledby="article-4-a-link-1" aria-label="Article link"></a>
       <div class="left-wrapper-2">
-        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[2].image }}"
+        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[16].image }}"
             alt="Article image thumbnail" /></div>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-4-a-link-1"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[16].url }}" id="article-4-a-link-1"><span>{{
+                  site.posts[16].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[16].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
         </div>
     </article>
     {% endif %}
-    {% if site.posts[2] %}
-    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
+    {% if site.posts[17] %}
+    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[17].url }}"
         aria-labelledby="article-4-a-link-2" aria-label="Article link"></a>
       <div class="left-wrapper-2">
-        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[2].image }}"
+        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[17].image }}"
             alt="Article image thumbnail" /></div>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-4-a-link-2"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[17].url }}" id="article-4-a-link-2"><span>{{
+                  site.posts[17].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[17].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -405,19 +413,19 @@ title: "Fredy's Blog"
       </div>
     </article>
     {% endif %}
-    {% if site.posts[2] %}
-    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[2].url }}"
+    {% if site.posts[18] %}
+    <article class="left-2 a-block"><a class="a-overlay" href="{{ site.posts[18].url }}"
         aria-labelledby="article-4-a-link-3" aria-label="Article link"></a>
       <div class="left-wrapper-2">
-        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[2].image }}"
+        <div class="left-image-thumbnail-2 a-inner"><img src="{{ site.posts[18].image }}"
             alt="Article image thumbnail" /></div>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-4-a-link-3"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[18].url }}" id="article-4-a-link-3"><span>{{
+                  site.posts[18].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[18].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -426,19 +434,21 @@ title: "Fredy's Blog"
     </article>
     {% endif %}
   </div>
+  {% endif %}
 
+  {% if false%}
   <div class="article_style-5">
-    {% if site.posts[2] %}
-    <article class="left-5 a-block"><a class="a-overlay" href="{{ site.posts[2].url }}" aria-label="Article link"></a>
-      <div class="image-wrapper-5 a-inner"><img src="{{ site.posts[2].image }}" alt="Article Thumbnail" /></div>
+    {% if site.posts[19] %}
+    <article class="left-5 a-block"><a class="a-overlay" href="{{ site.posts[19].url }}" aria-label="Article link"></a>
+      <div class="image-wrapper-5 a-inner"><img src="{{ site.posts[19].image }}" alt="Article Thumbnail" /></div>
       <div class="container-5">
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-5-link-undefined"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[19].url }}" id="article-5-link-undefined"><span>{{
+                  site.posts[19].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[19].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -447,48 +457,48 @@ title: "Fredy's Blog"
     </article>
     {% endif %}
     <div class="right-5">
-      {% if site.posts[2] %}
-      <article class="a-block"><a class="a-overlay" href="{{ site.posts[2].url }}" aria-labelledby="article-5-link-1"
+      {% if site.posts[20] %}
+      <article class="a-block"><a class="a-overlay" href="{{ site.posts[20].url }}" aria-labelledby="article-5-link-1"
           aria-label="Article link"></a>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-5-link-1"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[20].url }}" id="article-5-link-1"><span>{{
+                  site.posts[20].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[20].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
         </div>
       </article>
       {% endif %}
-      {% if site.posts[2] %}
-      <article class="a-block"><a class="a-overlay" href="{{ site.posts[2].url }}" aria-labelledby="article-5-link-2"
+      {% if site.posts[21] %}
+      <article class="a-block"><a class="a-overlay" href="{{ site.posts[21].url }}" aria-labelledby="article-5-link-2"
           aria-label="Article link"></a>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-5-link-2"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[21].url }}" id="article-5-link-2"><span>{{
+                  site.posts[21].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[21].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
         </div>
       </article>
       {% endif %}
-      {% if site.posts[2] %}
-      <article class="a-block"><a class="a-overlay" href="{{ site.posts[2].url }}" aria-labelledby="article-5-link-3"
+      {% if site.posts[22] %}
+      <article class="a-block"><a class="a-overlay" href="{{ site.posts[22].url }}" aria-labelledby="article-5-link-3"
           aria-label="Article link"></a>
         <div class="article-right-1">
           <div class="right-title-1">
-            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[2].url }}" id="article-5-link-3"><span>{{
-                  site.posts[2].title }}</span></a></h3>
+            <h3 class="h3-article-1 a-inner"><a href="{{ site.posts[22].url }}" id="article-5-link-3"><span>{{
+                  site.posts[22].title }}</span></a></h3>
           </div>
           <div class="right-tags-1 a-inner">
-            {% for tag in site.posts[2].tags %}
+            {% for tag in site.posts[22].tags %}
             <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
             {% endfor %}
           </div>
@@ -497,30 +507,37 @@ title: "Fredy's Blog"
       {% endif %}
     </div>
   </div>
-
   {% endif %}
-  <div class="article_style-6">
-  <!-- pagination -->
-  {% if page.url != '/'%}
-  {% for post in paginator.posts %}
+
+  <!-- {% endif %} -->
+
+
+  <!-- ALERT!!!!!! change this -->
+  <!-- ALERT!!!!!! change this -->
+  <!-- ALERT!!!!!! change this -->
+  <!-- ALERT!!!!!! change this -->
+  <div class="article_style-7"> 
+    <!-- pagination -->
+    {% if page.url != '/'%}
+    {% for post in paginator.posts %}
     <article class="a-block"><a class="a-overlay" href="{{ post.url }}" aria-labelledby="article-6-link-5"
-      aria-label="Article link"></a>
+        aria-label="Article link"></a>
       <div class="left-6">
         <div class="article-right-1">
           <div class="right-title-1">
             <h3 class="h3-article-1 a-inner"><a href="{{ post.url }}" id="article-6-link-5"><span>{{
-              site.posts[2].title }}</span></a></h3>
-            </div>
-            <div class="right-tags-1 a-inner">
-              {% for tag in post.tags %}
-              <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
-              {% endfor %}
-            </div>
+                  post.title }}</span></a></h3>
+          </div>
+          <div class="right-tags-1 a-inner">
+            {% for tag in post.tags %}
+            <a class="tags-1" href="{{ site.baseurl }}tag/{{tag}} ">{{tag}}</a>
+            {% endfor %}
           </div>
         </div>
-        <div class="right-6 a-inner"><img src="{{ post.image }}" alt="Article thumbnail" /></div>
-      </article>
-      {% endfor %}
+      </div>
+      <div class="right-6 a-inner"><img src="{{ post.image }}" alt="Article thumbnail" /></div>
+    </article>
+    {% endfor %}
     {% endif %}
 
     <style>
@@ -549,7 +566,10 @@ title: "Fredy's Blog"
         color: rgb(187, 187, 187);
       }
     </style>
+
     <!-- pagination -->
+
+    {% if false%}
     {% if paginator.total_pages > 1 %}
     <div class="article_style-6">
 
@@ -581,6 +601,7 @@ title: "Fredy's Blog"
       {% endif %}
       <!-- pagination -->
     </div>
+    {% endif %}
 
   </div>
 </div>
