@@ -1,8 +1,10 @@
 ---
 layout: article
-author: jill
-category: fruits
+title: This is another title
+date: 2022-08-23T01:34:07.452Z
 tags: javascript code
+category: fruits
+author: jill
 image: /assets/images/image1.webp
 ---
 2 copy A banana is an edible fruit – botanically a berry – produced by several kinds
