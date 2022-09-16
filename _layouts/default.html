@@ -3,6 +3,9 @@
 <head>
     {% include templates/head.html %}
     {% seo %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include templates/analytics.html %}
+    {% endif %}
 </head>
 <body>
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css"/>
