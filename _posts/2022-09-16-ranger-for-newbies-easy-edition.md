@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Ranger For Newbies (Easy Edition!)
+title: Ranger File Manager For Newbies (Easy Edition!)
 date: 2022-09-16T19:21:09.464Z
 tags:
   - linux
