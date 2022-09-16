@@ -96,6 +96,7 @@ You can quit ranger in the following ways:
 |-------|--------|
 | gg | Move to the top of the list | 
 | G | Move to the bottom of the list | 
+
 <br>
 
 <div style="display: flex; justify-content: center;">
