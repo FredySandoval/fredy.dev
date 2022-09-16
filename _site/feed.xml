@@ -1,46 +1,170 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-28T13:55:06-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Fredy.dev | A blog about programming</title><subtitle>A blog were I write about programming, tutorials, and projects.</subtitle><entry><title type="html">6This is another title</title><link href="http://localhost:4000/fruits/ban6anas-copy-8/" rel="alternate" type="text/html" title="6This is another title" /><published>2022-02-06T00:00:00-06:00</published><updated>2022-02-06T00:00:00-06:00</updated><id>http://localhost:4000/fruits/ban6anas%20copy%208</id><content type="html" xml:base="http://localhost:4000/fruits/ban6anas-copy-8/"><![CDATA[<noscript><pre>400: Invalid request</pre></noscript>
-<script src="https://gist.github.com/c08ee0f2726fd0e3909d.js"> </script>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-16T16:16:47-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Fredy.dev | A blog about programming</title><subtitle>A blog were I write about programming, tutorials, and projects.</subtitle><entry><title type="html">test 2</title><link href="http://localhost:4000/test-2/" rel="alternate" type="text/html" title="test 2" /><published>2022-09-16T13:25:29-06:00</published><updated>2022-09-16T13:25:29-06:00</updated><id>http://localhost:4000/test-2</id><content type="html" xml:base="http://localhost:4000/test-2/"><![CDATA[<p>test</p>]]></content><author><name>Fredy Sandoval</name></author><category term="test" /><summary type="html"><![CDATA[test]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/image3.webp" /><media:content medium="image" url="http://localhost:4000/assets/uploads/image3.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="http://localhost:4000/test/test/" rel="alternate" type="text/html" title="test 2" /><published>2022-09-16T13:25:10-06:00</published><updated>2022-09-16T13:25:10-06:00</updated><id>http://localhost:4000/test/test</id><content type="html" xml:base="http://localhost:4000/test/test/"><![CDATA[<p>test</p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;test&quot;]" /><summary type="html"><![CDATA[test]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/image3.webp" /><media:content medium="image" url="http://localhost:4000/assets/uploads/image3.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ranger For Newbies (Easy Edition!)</title><link href="http://localhost:4000/cli/ranger-for-newbies-easy-edition/" rel="alternate" type="text/html" title="Ranger For Newbies (Easy Edition!)" /><published>2022-09-16T13:21:09-06:00</published><updated>2022-09-16T13:21:09-06:00</updated><id>http://localhost:4000/cli/ranger-for-newbies-easy-edition</id><content type="html" xml:base="http://localhost:4000/cli/ranger-for-newbies-easy-edition/"><![CDATA[<h2 id="what-is-ranger-file-manager">What is ranger file manager?</h2>
+<p>ranger is a file manager that runs in the console or terminal, thought for productivity.</p>
+<h2 id="general-usage">General Usage</h2>
 
-<p>2 copy A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
+<h3 id="how-to-install-ranger">How to Install Ranger?</h3>
+<p>Linux Debian</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span> <span class="nx">sudo</span> <span class="nx">apt</span> <span class="nx">install</span> <span class="nx">ranger</span>
+</code></pre></div></div>
+<p>Linux Arch Based</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span> <span class="nx">sudo</span> <span class="nx">pacman</span> <span class="o">-</span><span class="nx">S</span> <span class="nx">ranger</span>
+</code></pre></div></div>
+<p>MacOS</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span> <span class="nx">brew</span> <span class="nx">install</span> <span class="nx">ranger</span>
+</code></pre></div></div>
+<h3 id="how-to-open-ranger-file-manager">How to open Ranger File Manager?</h3>
 
-<p>In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.</p>]]></content><author><name>jill</name></author><category term="fruits" /><category term="javascript" /><category term="code" /><summary type="html"><![CDATA[400: Invalid request]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/image1.webp" /><media:content medium="image" url="http://localhost:4000/assets/images/image1.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">5This is another title</title><link href="http://localhost:4000/fruits/ban5anas-copy-7/" rel="alternate" type="text/html" title="5This is another title" /><published>2022-02-05T00:00:00-06:00</published><updated>2022-02-05T00:00:00-06:00</updated><id>http://localhost:4000/fruits/ban5anas%20copy%207</id><content type="html" xml:base="http://localhost:4000/fruits/ban5anas-copy-7/"><![CDATA[<p>2 copy A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
+<p>After being installed just type “ranger”</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span> <span class="nx">ranger</span>
+</code></pre></div></div>
+<div style="display: flex; justify-content: center;">
+<img src="https://user-images.githubusercontent.com/45242501/163754661-fd7082db-3e71-4494-bd01-aa00b0c76d2c.gif" width="500" />
+</div>
+<p><br /></p>
+<hr />
 
-<p>In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.</p>]]></content><author><name>jill</name></author><category term="fruits" /><category term="javascript" /><category term="code" /><summary type="html"><![CDATA[2 copy A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/image1.webp" /><media:content medium="image" url="http://localhost:4000/assets/images/image1.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">4This is another title</title><link href="http://localhost:4000/fruits/ban4anas-copy-6/" rel="alternate" type="text/html" title="4This is another title" /><published>2022-02-04T00:00:00-06:00</published><updated>2022-02-04T00:00:00-06:00</updated><id>http://localhost:4000/fruits/ban4anas%20copy%206</id><content type="html" xml:base="http://localhost:4000/fruits/ban4anas-copy-6/"><![CDATA[<p>2 copy A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
+<h3 id="how-to-quit-or-exit-ranger">how to quit or exit Ranger?</h3>
+<p>You can quit ranger in the following ways:</p>
 
-<p>In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.</p>]]></content><author><name>jill</name></author><category term="fruits" /><category term="javascript" /><category term="code" /><summary type="html"><![CDATA[2 copy A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/image1.webp" /><media:content medium="image" url="http://localhost:4000/assets/images/image1.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">3This is another title</title><link href="http://localhost:4000/fruits/ban3anas-copy-5/" rel="alternate" type="text/html" title="3This is another title" /><published>2022-02-03T00:00:00-06:00</published><updated>2022-02-03T00:00:00-06:00</updated><id>http://localhost:4000/fruits/ban3anas%20copy%205</id><content type="html" xml:base="http://localhost:4000/fruits/ban3anas-copy-5/"><![CDATA[<p>2 copy A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>q</td>
+      <td>exits ranger</td>
+    </tr>
+    <tr>
+      <td>Q</td>
+      <td>exits ranger</td>
+    </tr>
+    <tr>
+      <td>ZZ</td>
+      <td>exits ranger</td>
+    </tr>
+    <tr>
+      <td>ZQ</td>
+      <td>exits ranger</td>
+    </tr>
+    <tr>
+      <td>:exit</td>
+      <td>exits ranger</td>
+    </tr>
+    <tr>
+      <td>:quit</td>
+      <td>exits ranger</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.</p>]]></content><author><name>jill</name></author><category term="fruits" /><category term="javascript" /><category term="code" /><summary type="html"><![CDATA[2 copy A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/image1.webp" /><media:content medium="image" url="http://localhost:4000/assets/images/image1.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">2This is another title</title><link href="http://localhost:4000/fruits/ban2anas-copy-4/" rel="alternate" type="text/html" title="2This is another title" /><published>2022-02-02T00:00:00-06:00</published><updated>2022-02-02T00:00:00-06:00</updated><id>http://localhost:4000/fruits/ban2anas%20copy%204</id><content type="html" xml:base="http://localhost:4000/fruits/ban2anas-copy-4/"><![CDATA[<p>2 copy A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
+<h2 id="how-to-move-around-between-files">How to move around between files?</h2>
 
-<p>In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.</p>]]></content><author><name>jill</name></author><category term="fruits" /><category term="javascript" /><category term="code" /><summary type="html"><![CDATA[2 copy A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/image1.webp" /><media:content medium="image" url="http://localhost:4000/assets/images/image1.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">1This is another title</title><link href="http://localhost:4000/fruits/ban1anas-copy-3/" rel="alternate" type="text/html" title="1This is another title" /><published>2022-02-01T00:00:00-06:00</published><updated>2022-02-01T00:00:00-06:00</updated><id>http://localhost:4000/fruits/ban1anas%20copy%203</id><content type="html" xml:base="http://localhost:4000/fruits/ban1anas-copy-3/"><![CDATA[<p>2 copy A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>h</td>
+      <td>moves one directory to the left</td>
+    </tr>
+    <tr>
+      <td>[n]h</td>
+      <td>moves n directories to the left, example: 3n</td>
+    </tr>
+    <tr>
+      <td>l</td>
+      <td>enters the right</td>
+    </tr>
+    <tr>
+      <td>[n]l</td>
+      <td>jumps n directories to the right, example: 3l</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>In some countries, bananas used for cooking may be called “plantains”,
-distinguishing them from dessert bananas. The fruit is variable in size, color,
-and firmness, but is usually elongated and curved, with soft flesh rich in
-starch covered with a rind, which may be green, yellow, red, purple, or brown
-when ripe.</p>]]></content><author><name>jill</name></author><category term="fruits" /><category term="javascript" /><category term="code" /><summary type="html"><![CDATA[2 copy A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/image1.webp" /><media:content medium="image" url="http://localhost:4000/assets/images/image1.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><br /></p>
+
+<div style="display: flex; justify-content: center;">
+<img src="https://user-images.githubusercontent.com/45242501/163777507-7b33c51d-d692-467c-9201-182daa921f17.gif" width="500" />
+</div>
+<p><br /></p>
+<div style="display: flex; justify-content: center;">
+<img src="https://user-images.githubusercontent.com/45242501/163777858-291ca9f2-ef83-4fba-8bbf-117ce7fae871.gif" width="500" />
+</div>
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>j</td>
+      <td>moves the selector down</td>
+    </tr>
+    <tr>
+      <td>[n]j</td>
+      <td>moves the selector down n time, example: 2j</td>
+    </tr>
+    <tr>
+      <td>k</td>
+      <td>moves the selector up</td>
+    </tr>
+    <tr>
+      <td>[n]k</td>
+      <td>moves the selector up n time, example: 3k</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<div style="display: flex; justify-content: center;">
+<img src="https://user-images.githubusercontent.com/45242501/163778791-5314c1b0-554b-4c0f-87b2-c286976b8ba0.gif" width="500" />
+</div>
+<p><br /></p>
+
+<div style="display: flex; justify-content: center;">
+<img src="https://user-images.githubusercontent.com/45242501/163779323-ee77c4ca-3933-43f3-87bb-9b0790a2a8c6.gif" width="500" />
+</div>
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>gg</td>
+      <td>Move to the top of the list</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>Move to the bottom of the list</td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="display: flex; justify-content: center;">
+<img src="https://user-images.githubusercontent.com/45242501/163779731-91f847d1-2717-4274-8122-0c0e4d0b9cfa.gif" width="500" />
+</div>
+<p><br /></p>
+
+<div style="display: flex; justify-content: center;">
+<img src="https://user-images.githubusercontent.com/45242501/163779952-5e9b7f19-36cc-4d06-a10a-343a8e1dc9a3.gif" width="500" />
+</div>
+<p><br /></p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;cli&quot;]" /><category term="linux" /><category term="ranger" /><category term="file" /><category term="explorer" /><summary type="html"><![CDATA[What is ranger file manager? ranger is a file manager that runs in the console or terminal, thought for productivity. General Usage]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/launch-ranger-console-file-manager.png" /><media:content medium="image" url="http://localhost:4000/assets/uploads/launch-ranger-console-file-manager.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
