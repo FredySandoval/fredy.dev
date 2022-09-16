@@ -13,6 +13,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-gist
+  - jekyll-analytics
 
 
 jekyll-archives:
@@ -38,3 +39,8 @@ gems:
 
 paginate: 20
 paginate_path: "/page:num/"
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: G-M7RTRWEW1C # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
