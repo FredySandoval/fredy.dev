@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://fredy.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fredy.dev/" rel="alternate" type="text/html" /><updated>2022-09-16T17:08:43-06:00</updated><id>https://fredy.dev/feed.xml</id><title type="html">Fredy.dev | A blog about programming</title><subtitle>A blog were I write about programming, tutorials, and projects.</subtitle><entry><title type="html">test 2</title><link href="https://fredy.dev/test-2/" rel="alternate" type="text/html" title="test 2" /><published>2022-09-16T13:25:29-06:00</published><updated>2022-09-16T13:25:29-06:00</updated><id>https://fredy.dev/test-2</id><content type="html" xml:base="https://fredy.dev/test-2/"><![CDATA[<p>test</p>]]></content><author><name>Fredy Sandoval</name></author><category term="test" /><summary type="html"><![CDATA[test]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://fredy.dev/assets/uploads/image3.webp" /><media:content medium="image" url="https://fredy.dev/assets/uploads/image3.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">test 2</title><link href="https://fredy.dev/test/test/" rel="alternate" type="text/html" title="test 2" /><published>2022-09-16T13:25:10-06:00</published><updated>2022-09-16T13:25:10-06:00</updated><id>https://fredy.dev/test/test</id><content type="html" xml:base="https://fredy.dev/test/test/"><![CDATA[<p>test</p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;test&quot;]" /><summary type="html"><![CDATA[test]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://fredy.dev/assets/uploads/image3.webp" /><media:content medium="image" url="https://fredy.dev/assets/uploads/image3.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ranger For Newbies (Easy Edition!)</title><link href="https://fredy.dev/cli/ranger-for-newbies-easy-edition/" rel="alternate" type="text/html" title="Ranger For Newbies (Easy Edition!)" /><published>2022-09-16T13:21:09-06:00</published><updated>2022-09-16T13:21:09-06:00</updated><id>https://fredy.dev/cli/ranger-for-newbies-easy-edition</id><content type="html" xml:base="https://fredy.dev/cli/ranger-for-newbies-easy-edition/"><![CDATA[<h2 id="what-is-ranger-file-manager">What is ranger file manager?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-16T21:25:12-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Fredy.dev | A blog about programming</title><subtitle>A blog were I write about programming, tutorials, and projects.</subtitle><entry><title type="html">test 2</title><link href="http://localhost:4000/test/test/" rel="alternate" type="text/html" title="test 2" /><published>2022-09-16T13:25:10-06:00</published><updated>2022-09-16T13:25:10-06:00</updated><id>http://localhost:4000/test/test</id><content type="html" xml:base="http://localhost:4000/test/test/"><![CDATA[<p>test</p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;test&quot;]" /><summary type="html"><![CDATA[test]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/image3.webp" /><media:content medium="image" url="http://localhost:4000/assets/uploads/image3.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ranger For Newbies (Easy Edition!)</title><link href="http://localhost:4000/cli/ranger-for-newbies-easy-edition/" rel="alternate" type="text/html" title="Ranger For Newbies (Easy Edition!)" /><published>2022-09-16T13:21:09-06:00</published><updated>2022-09-16T13:21:09-06:00</updated><id>http://localhost:4000/cli/ranger-for-newbies-easy-edition</id><content type="html" xml:base="http://localhost:4000/cli/ranger-for-newbies-easy-edition/"><![CDATA[<h2 id="what-is-ranger-file-manager">What is ranger file manager?</h2>
 <p>ranger is a file manager that runs in the console or terminal, thought for productivity.</p>
 <h2 id="general-usage">General Usage</h2>
 
@@ -169,4 +169,59 @@
 <div style="display: flex; justify-content: center;">
 <img src="https://user-images.githubusercontent.com/45242501/163779952-5e9b7f19-36cc-4d06-a10a-343a8e1dc9a3.gif" width="500" />
 </div>
-<p><br /></p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;cli&quot;]" /><category term="linux" /><category term="ranger" /><category term="file" /><category term="explorer" /><summary type="html"><![CDATA[What is ranger file manager? ranger is a file manager that runs in the console or terminal, thought for productivity. General Usage]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://fredy.dev/assets/uploads/launch-ranger-console-file-manager.png" /><media:content medium="image" url="https://fredy.dev/assets/uploads/launch-ranger-console-file-manager.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><br /></p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;cli&quot;]" /><category term="linux" /><category term="ranger" /><category term="file" /><category term="explorer" /><summary type="html"><![CDATA[What is ranger file manager? ranger is a file manager that runs in the console or terminal, thought for productivity. General Usage]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/launch-ranger-console-file-manager.png" /><media:content medium="image" url="http://localhost:4000/assets/uploads/launch-ranger-console-file-manager.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Analytics para Jekyll</title><link href="http://localhost:4000/google/test-2/" rel="alternate" type="text/html" title="Google Analytics para Jekyll" /><published>2022-09-16T13:21:09-06:00</published><updated>2022-09-16T13:21:09-06:00</updated><id>http://localhost:4000/google/test-2</id><content type="html" xml:base="http://localhost:4000/google/test-2/"><![CDATA[<h1 id="google-analytics-para-jekyll">Google Analytics para Jekyll</h1>
+
+<p>El sistema de Monitoreo de Google Analytics es un servicio gratis, ofrecido por Google. Que monitorea y reporta el tráfico de una página Web.
+En este tutorial, te mostraré como agregar en nuevo script “Global Site Tag” a tu sitio de Jekyll.</p>
+
+<h1 id="paso-1">Paso 1.</h1>
+
+<p>Has Login en tu sitio de Google Analitics y crea una nueva propiedad para recibir un “Tracking ID” para tú página Web.
+Ejemplo: XX-XXXXXX</p>
+<style>
+  code.t {
+    background-color: var(--header-hover-background-color);
+  }
+</style>
+
+<h1 id="paso-2">Paso 2.</h1>
+<h3 id="instalando-el-tracking-de-google-analytics">Instalando el tracking de Google Analytics</h3>
+<p>primero crea un nuevo archivo llamado <code class="t"> analytics.html </code> en tu archivo llamado <code> _includes </code>.</p>
+
+<p>Ahora Copia y pega el siguiente código “Global Site Tag” (gtag.js) en tu archivo llamado <code class="t">analytics.html</code> y guárdalo.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">async</span> <span class="na">src=</span><span class="s">"https://www.googletagmanager.com/gtag/js?id=G-M7RTRWEW1C"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+  <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">||</span> <span class="p">[];</span>
+  <span class="kd">function</span> <span class="nx">gtag</span><span class="p">(){</span><span class="nx">dataLayer</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arguments</span><span class="p">);}</span>
+  <span class="nx">gtag</span><span class="p">(</span><span class="dl">'</span><span class="s1">js</span><span class="dl">'</span><span class="p">,</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+
+  <span class="nx">gtag</span><span class="p">(</span><span class="dl">'</span><span class="s1">config</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">G-M7RTRWEW1C</span><span class="dl">'</span><span class="p">);</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>Encontrarás tu propio código en la página de Google Analytics (gtag.js) <strong> Admin &gt; Property &gt; Tracking info &gt; Tracking code. <strong>Tu propio codigo “Tracking ID” se muestra en la parte superior de la pagina.</strong></strong></p>
+
+<p>El <code class="t"> {{ site.google_analitics }}" </code> que e incluido arriba, te permitirá configurar tu propio Tracking ID en el archivo <code>_config.yml</code>.</p>
+
+<h1 id="añadiendo-tu-tracking-id-de-google-analytics-a-tu-jekyll-archivo-de-configuración">Añadiendo tu Tracking ID de Google Analytics a tu Jekyll archivo de configuración</h1>
+<p>Abre tu <code style="t">_config.yml</code> y agrega las siguientes líneas de código. Es importante que incluyas tu propio “Tracking ID” asi que remplaza <code class="t">XX-XXXXXX</code> por el código de tu propia página.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Google Analytics</span>
+<span class="na">google_analytics</span><span class="pi">:</span> <span class="s">UA—XXXXXXXX-X</span>
+</code></pre></div></div>
+<h1 id="finalmente">Finalmente</h1>
+<p>Google recomienda colocar el script dentro de la sección <code class="t">&lt;head&gt;</code> de tu página web, para que funcione correctamente.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="sx">% if </span><span class="n">site</span><span class="p">.</span><span class="nf">google_analytics</span> <span class="n">and</span> <span class="n">jekyll</span><span class="p">.</span><span class="nf">environment</span> <span class="o">==</span> <span class="s1">'production'</span> <span class="o">%</span><span class="p">}</span>
+  <span class="p">{</span><span class="sx">% include </span><span class="n">analytics</span><span class="p">.</span><span class="nf">html</span> <span class="sx">%}
+{% endif %}</span>
+</code></pre></div></div>
+
+<p>En el futuro, cuando tú ejecutes <code style="t">bundle exec jekyll serve</code> la parte de Google Analytics no se vera afectada si esta accedes a la página localmente. “localhost:4000”.</p>
+
+<p>Si necesitas que se muestre el tag dentro de un entorno de desarrollo, puedes ejecutar</p>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">JEKYLL_ENV=production bundle exec jekyll build</span>
+</code></pre></div></div>
+
+<p>Siempre asegúrate manualmente que tu tag está insertado correctamente.</p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;google&quot;]" /><category term="google" /><category term="analytics" /><category term="espanol" /><category term="jekyll" /><summary type="html"><![CDATA[Google Analytics para Jekyll]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/googleanalytics.webp" /><media:content medium="image" url="http://localhost:4000/assets/uploads/googleanalytics.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
