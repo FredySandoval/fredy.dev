@@ -8,7 +8,7 @@ tags:
   - file
   - explorer
 category:
-  - cli
+  - tools
 author: Fredy Sandoval
 image: /assets/uploads/launch-ranger-console-file-manager.png
 ---
