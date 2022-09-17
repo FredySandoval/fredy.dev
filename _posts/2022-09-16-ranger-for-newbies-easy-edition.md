@@ -36,7 +36,7 @@ After being installed just type "ranger"
 $ ranger
 ```
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163754661-fd7082db-3e71-4494-bd01-aa00b0c76d2c.gif" width=500>
+<img src="https://user-images.githubusercontent.com/45242501/163754661-fd7082db-3e71-4494-bd01-aa00b0c76d2c.gif" width=500 alt="ranger file manager">
 </div>
 <br>
 <hr>
@@ -65,11 +65,11 @@ You can quit ranger in the following ways:
 <br>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163777507-7b33c51d-d692-467c-9201-182daa921f17.gif" width=500>
+<img src="https://user-images.githubusercontent.com/45242501/163777507-7b33c51d-d692-467c-9201-182daa921f17.gif" width=500 alt="ranger file manager">
 </div>
 <br>
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163777858-291ca9f2-ef83-4fba-8bbf-117ce7fae871.gif" width=500>
+<img src="https://user-images.githubusercontent.com/45242501/163777858-291ca9f2-ef83-4fba-8bbf-117ce7fae871.gif" width=500 alt="ranger file manager">
 </div>
 <br>
 
@@ -83,12 +83,12 @@ You can quit ranger in the following ways:
 <br>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163778791-5314c1b0-554b-4c0f-87b2-c286976b8ba0.gif" width=500>
+<img src="https://user-images.githubusercontent.com/45242501/163778791-5314c1b0-554b-4c0f-87b2-c286976b8ba0.gif" width=500 alt="ranger file manager">
 </div>
 <br>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163779323-ee77c4ca-3933-43f3-87bb-9b0790a2a8c6.gif" width=500>
+<img src="https://user-images.githubusercontent.com/45242501/163779323-ee77c4ca-3933-43f3-87bb-9b0790a2a8c6.gif" width=500 alt="ranger file manager">
 </div>
 <br>
 
@@ -100,11 +100,11 @@ You can quit ranger in the following ways:
 <br>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163779731-91f847d1-2717-4274-8122-0c0e4d0b9cfa.gif" width=500>
+<img src="https://user-images.githubusercontent.com/45242501/163779731-91f847d1-2717-4274-8122-0c0e4d0b9cfa.gif" width=500 alt="ranger file manager">
 </div>
 <br>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163779952-5e9b7f19-36cc-4d06-a10a-343a8e1dc9a3.gif" width=500>
+<img src="https://user-images.githubusercontent.com/45242501/163779952-5e9b7f19-36cc-4d06-a10a-343a8e1dc9a3.gif" width=500 alt="ranger file manager">
 </div>
 <br>
