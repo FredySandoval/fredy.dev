@@ -39,5 +39,5 @@ You will be prompted two times asking if you want to save and close.
 
 <u>Visual Example:</u> 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163793114-a932f5fa-a1fb-4801-9668-3765db9fe214.gif" width=500>
+<img src="https://user-images.githubusercontent.com/45242501/163793114-a932f5fa-a1fb-4801-9668-3765db9fe214.gif" width=500 alt="ranger renaming in bulk">
 </div>
