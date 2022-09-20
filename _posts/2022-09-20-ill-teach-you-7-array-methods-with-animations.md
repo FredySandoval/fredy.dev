@@ -46,6 +46,9 @@ Changes all elements in an array to a static value, from a start index (default 
 
 ## every
 Tests all elements in the array. After finished returns a Boolean value
+```js
+[1,2,3].every( n => n == 2 ) // true
+```
 ![88](https://user-images.githubusercontent.com/45242501/191357036-0d78d7e4-c5b5-40a3-8faf-ce460e7acc14.gif)
 
 ## some
