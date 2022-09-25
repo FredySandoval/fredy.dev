@@ -1,8 +1,11 @@
 title: Fredy.dev | A blog about programming 
 email: me@fredy.dev
 description: A blog were I write about programming, tutorials, and projects.
-url: https://fredy.dev
+url: https://www.fredy.dev
 baseurl: /
+author:
+  name: Fredy Sandoval
+  url: https://www.fredy.dev/
 
 permalink: /:categories/:title/
 
