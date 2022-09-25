@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-16T21:25:12-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Fredy.dev | A blog about programming</title><subtitle>A blog were I write about programming, tutorials, and projects.</subtitle><entry><title type="html">test 2</title><link href="http://localhost:4000/test/test/" rel="alternate" type="text/html" title="test 2" /><published>2022-09-16T13:25:10-06:00</published><updated>2022-09-16T13:25:10-06:00</updated><id>http://localhost:4000/test/test</id><content type="html" xml:base="http://localhost:4000/test/test/"><![CDATA[<p>test</p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;test&quot;]" /><summary type="html"><![CDATA[test]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/image3.webp" /><media:content medium="image" url="http://localhost:4000/assets/uploads/image3.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ranger For Newbies (Easy Edition!)</title><link href="http://localhost:4000/cli/ranger-for-newbies-easy-edition/" rel="alternate" type="text/html" title="Ranger For Newbies (Easy Edition!)" /><published>2022-09-16T13:21:09-06:00</published><updated>2022-09-16T13:21:09-06:00</updated><id>http://localhost:4000/cli/ranger-for-newbies-easy-edition</id><content type="html" xml:base="http://localhost:4000/cli/ranger-for-newbies-easy-edition/"><![CDATA[<h2 id="what-is-ranger-file-manager">What is ranger file manager?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-09-24T21:53:08-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Fredy.dev | A blog about programming</title><subtitle>A blog were I write about programming, tutorials, and projects.</subtitle><entry><title type="html">I’ll teach you 7 Array methods. (with animations!)</title><link href="http://localhost:4000/tutorial/ill-teach-you-7-array-methods-with-animations/" rel="alternate" type="text/html" title="I’ll teach you 7 Array methods. (with animations!)" /><published>2022-09-20T14:35:43-06:00</published><updated>2022-09-20T14:35:43-06:00</updated><id>http://localhost:4000/tutorial/ill-teach-you-7-array-methods-with-animations</id><content type="html" xml:base="http://localhost:4000/tutorial/ill-teach-you-7-array-methods-with-animations/"><![CDATA[<h2 id="map">map</h2>
+<p>Creates a new array populated with the results of a provided function on every element.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">].</span><span class="nx">map</span><span class="p">(</span> <span class="nx">n</span> <span class="o">=&gt;</span> <span class="nx">n</span> <span class="o">*</span> <span class="mi">2</span> <span class="p">);</span> <span class="c1">// [2, 4, 6]</span>
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/45242501/191165459-eb59d0f8-1188-4119-8b9d-ae422150d97c.gif" alt="11" /></p>
+
+<h2 id="filter">filter</h2>
+<p>Creates a Copy of a portion of a given array, filtered down to just the elements from the given array that pass the test, keep in mind that changes of your first array will affect your copy.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">].</span><span class="nx">filter</span><span class="p">(</span> <span class="nx">n</span> <span class="o">=&gt;</span> <span class="nx">n</span> <span class="o">!==</span> <span class="mi">2</span> <span class="p">);</span> <span class="c1">// [1,3]</span>
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/45242501/191168509-c1c53a6a-cfdb-49c7-aa2c-336859ec19ff.gif" alt="22" /></p>
+
+<h2 id="find">find</h2>
+<p>Stops and returns the first element in the provided array that satisfies the provided testing function, otherwise returns undefined.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">].</span><span class="nx">find</span><span class="p">(</span> <span class="nx">n</span> <span class="o">=&gt;</span> <span class="nx">n</span> <span class="o">==</span> <span class="mi">2</span> <span class="p">)</span> <span class="c1">// 2</span>
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/45242501/191170544-e4fc3b96-e4bf-4fb5-8636-c81e72ac7f74.gif" alt="33" /></p>
+
+<h2 id="findindex">findIndex</h2>
+<p>Returns the index of the first element that satisfies the provided testing function. Otherwise -1 is returned.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">].</span><span class="nx">findIndex</span><span class="p">(</span> <span class="nx">n</span> <span class="o">=&gt;</span> <span class="nx">n</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// 1</span>
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/45242501/191172188-9446e69f-4e72-452e-b090-227da04e3824.gif" alt="44" /></p>
+
+<h2 id="fill">fill</h2>
+<p>Changes all elements in an array to a static value, from a start index (default 0) to an end index (default array.length). It returns the modified array.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">].</span><span class="nx">fill</span><span class="p">(</span><span class="dl">'</span><span class="s1">Txt</span><span class="dl">'</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span> <span class="c1">// [1,'Txt', 3]</span>
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/45242501/191353910-e16f99ac-0845-43fd-9da5-c1e2cfec7a8d.gif" alt="77" /></p>
+
+<h2 id="every">every</h2>
+<p>Tests all elements in the array. After finished returns a Boolean value</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">].</span><span class="nx">every</span><span class="p">(</span> <span class="nx">n</span> <span class="o">=&gt;</span> <span class="nx">n</span> <span class="o">==</span> <span class="mi">2</span> <span class="p">)</span> <span class="c1">// true</span>
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/45242501/191357036-0d78d7e4-c5b5-40a3-8faf-ce460e7acc14.gif" alt="88" /></p>
+
+<h2 id="some">some</h2>
+<p>Tests whether at least one element in the array passes the test implemented by the provided function.</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">].</span><span class="nx">some</span><span class="p">(</span> <span class="nx">n</span> <span class="o">=&gt;</span> <span class="nx">n</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// true</span>
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/45242501/191358482-ddec7b8d-82c8-4ea9-9599-e85e4fd646ab.gif" alt="99" /></p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;Tutorial&quot;]" /><category term="javascript" /><summary type="html"><![CDATA[map Creates a new array populated with the results of a provided function on every element. [1, 2, 3].map( n =&gt; n * 2 ); // [2, 4, 6]]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/articlethumbnail.png" /><media:content medium="image" url="http://localhost:4000/assets/uploads/articlethumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Renaming lots of files? This trick will save you hours!</title><link href="http://localhost:4000/tools/renaming-files-with-ranger/" rel="alternate" type="text/html" title="Renaming lots of files? This trick will save you hours!" /><published>2022-09-17T13:36:55-06:00</published><updated>2022-09-17T13:36:55-06:00</updated><id>http://localhost:4000/tools/renaming-files-with-ranger</id><content type="html" xml:base="http://localhost:4000/tools/renaming-files-with-ranger/"><![CDATA[<p>Let’s say you have 100 files that are named incorrectly, and you need to change a specific part of it’s name.</p>
+
+<p>The Question would be:</p>
+
+<h3 id="how-do-i-rename-several-files-at-the-same-time">How do I rename several files at the same time?</h3>
+
+<p>Answer: 
+You can use a command line interface tool (cli) named Ranger. This tool will allow you to use your favorite text editor, Nano or Vim, to rename files in bulk.</p>
+
+<p>Here are the steps:</p>
+
+<p><u>Step 0.</u>
+Ensure you have Ranger installed, if you don’t know how to install it, you can check this <a href="https://www.fredy.dev/tools/ranger-for-newbies-easy-edition/">article</a>.</p>
+
+<p><u>Step 1.</u></p>
+
+<p>In a new terminal, call <code>ranger</code> and select all the files you want to rename with the spacebar.</p>
+
+<p><u>Step 2.</u> 
+Once the files are selected, type <code>:bulkrename</code> this will open you an editor with the names of the files in it.</p>
+
+<p><u>Step 3.</u> 
+You can start editing the file names, all changes you make to the names will be applied to the actual filenames of your files, once you’re done, just close and save it.</p>
+
+<p>You will be prompted two times asking if you want to save and close.</p>
+
+<p><u>Visual Example:</u></p>
+<div style="display: flex; justify-content: center;">
+<img src="https://user-images.githubusercontent.com/45242501/163793114-a932f5fa-a1fb-4801-9668-3765db9fe214.gif" width="500" alt="ranger renaming in bulk" />
+</div>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;tools&quot;]" /><category term="productivity" /><category term="rename" /><category term="ranger" /><summary type="html"><![CDATA[Let’s say you have 100 files that are named incorrectly, and you need to change a specific part of it’s name.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/image3.webp" /><media:content medium="image" url="http://localhost:4000/assets/uploads/image3.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Analytics para Jekyll</title><link href="http://localhost:4000/google/jekyll-google-analytics/" rel="alternate" type="text/html" title="Google Analytics para Jekyll" /><published>2022-09-16T13:21:09-06:00</published><updated>2022-09-16T13:21:09-06:00</updated><id>http://localhost:4000/google/jekyll-google-analytics</id><content type="html" xml:base="http://localhost:4000/google/jekyll-google-analytics/"><![CDATA[<h1 id="google-analytics-para-jekyll">Google Analytics para Jekyll</h1>
+
+<p>El sistema de Monitoreo de Google Analytics es un servicio gratis, ofrecido por Google. Que monitorea y reporta el tráfico de una página Web.
+En este tutorial, te mostraré como agregar en nuevo script “Global Site Tag” a tu sitio de Jekyll.</p>
+
+<h1 id="paso-1">Paso 1.</h1>
+
+<p>Has Login en tu sitio de Google Analitics y crea una nueva propiedad para recibir un “Tracking ID” para tú página Web.
+Ejemplo: XX-XXXXXX</p>
+<style>
+  code.t {
+    background-color: var(--header-hover-background-color);
+  }
+</style>
+
+<h1 id="paso-2">Paso 2.</h1>
+<h3 id="instalando-el-tracking-de-google-analytics">Instalando el tracking de Google Analytics</h3>
+<p>primero crea un nuevo archivo llamado <code class="t"> analytics.html </code> en tu archivo llamado <code> _includes </code>.</p>
+
+<p>Ahora Copia y pega el siguiente código “Global Site Tag” (gtag.js) en tu archivo llamado <code class="t">analytics.html</code> y guárdalo.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">async</span> <span class="na">src=</span><span class="s">"https://www.googletagmanager.com/gtag/js?id=G-M7RTRWEW1C"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script&gt;</span>
+  <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">||</span> <span class="p">[];</span>
+  <span class="kd">function</span> <span class="nx">gtag</span><span class="p">(){</span><span class="nx">dataLayer</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arguments</span><span class="p">);}</span>
+  <span class="nx">gtag</span><span class="p">(</span><span class="dl">'</span><span class="s1">js</span><span class="dl">'</span><span class="p">,</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+
+  <span class="nx">gtag</span><span class="p">(</span><span class="dl">'</span><span class="s1">config</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">G-M7RTRWEW1C</span><span class="dl">'</span><span class="p">);</span>
+<span class="nt">&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>Encontrarás tu propio código en la página de Google Analytics (gtag.js) <strong> Admin &gt; Property &gt; Tracking info &gt; Tracking code. <strong>Tu propio codigo “Tracking ID” se muestra en la parte superior de la pagina.</strong></strong></p>
+
+<p>El <code class="t"> {{ site.google_analitics }}" </code> que e incluido arriba, te permitirá configurar tu propio Tracking ID en el archivo <code>_config.yml</code>.</p>
+
+<h1 id="añadiendo-tu-tracking-id-de-google-analytics-a-tu-jekyll-archivo-de-configuración">Añadiendo tu Tracking ID de Google Analytics a tu Jekyll archivo de configuración</h1>
+<p>Abre tu <code style="t">_config.yml</code> y agrega las siguientes líneas de código. Es importante que incluyas tu propio “Tracking ID” asi que remplaza <code class="t">XX-XXXXXX</code> por el código de tu propia página.</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Google Analytics</span>
+<span class="na">google_analytics</span><span class="pi">:</span> <span class="s">UA—XXXXXXXX-X</span>
+</code></pre></div></div>
+<h1 id="finalmente">Finalmente</h1>
+<p>Google recomienda colocar el script dentro de la sección <code class="t">&lt;head&gt;</code> de tu página web, para que funcione correctamente.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="sx">% if </span><span class="n">site</span><span class="p">.</span><span class="nf">google_analytics</span> <span class="n">and</span> <span class="n">jekyll</span><span class="p">.</span><span class="nf">environment</span> <span class="o">==</span> <span class="s1">'production'</span> <span class="o">%</span><span class="p">}</span>
+  <span class="p">{</span><span class="sx">% include </span><span class="n">analytics</span><span class="p">.</span><span class="nf">html</span> <span class="sx">%}
+{% endif %}</span>
+</code></pre></div></div>
+
+<p>En el futuro, cuando tú ejecutes <code style="t">bundle exec jekyll serve</code> la parte de Google Analytics no se vera afectada si esta accedes a la página localmente. “localhost:4000”.</p>
+
+<p>Si necesitas que se muestre el tag dentro de un entorno de desarrollo, puedes ejecutar</p>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">JEKYLL_ENV=production bundle exec jekyll build</span>
+</code></pre></div></div>
+
+<p>Siempre asegúrate manualmente que tu tag está insertado correctamente.</p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;google&quot;]" /><category term="google" /><category term="analytics" /><category term="espanol" /><category term="jekyll" /><summary type="html"><![CDATA[Google Analytics para Jekyll]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/googleanalytics.webp" /><media:content medium="image" url="http://localhost:4000/assets/uploads/googleanalytics.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ranger File Manager For Newbies (Easy Edition!)</title><link href="http://localhost:4000/tools/ranger-for-newbies-easy-edition/" rel="alternate" type="text/html" title="Ranger File Manager For Newbies (Easy Edition!)" /><published>2022-09-16T13:21:09-06:00</published><updated>2022-09-16T13:21:09-06:00</updated><id>http://localhost:4000/tools/ranger-for-newbies-easy-edition</id><content type="html" xml:base="http://localhost:4000/tools/ranger-for-newbies-easy-edition/"><![CDATA[<h2 id="what-is-ranger-file-manager">What is ranger file manager?</h2>
 <p>ranger is a file manager that runs in the console or terminal, thought for productivity.</p>
 <h2 id="general-usage">General Usage</h2>
 
@@ -18,7 +142,7 @@
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span> <span class="nx">ranger</span>
 </code></pre></div></div>
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163754661-fd7082db-3e71-4494-bd01-aa00b0c76d2c.gif" width="500" />
+<img src="https://user-images.githubusercontent.com/45242501/163754661-fd7082db-3e71-4494-bd01-aa00b0c76d2c.gif" width="500" alt="ranger file manager" />
 </div>
 <p><br /></p>
 <hr />
@@ -93,11 +217,11 @@
 <p><br /></p>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163777507-7b33c51d-d692-467c-9201-182daa921f17.gif" width="500" />
+<img src="https://user-images.githubusercontent.com/45242501/163777507-7b33c51d-d692-467c-9201-182daa921f17.gif" width="500" alt="ranger file manager" />
 </div>
 <p><br /></p>
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163777858-291ca9f2-ef83-4fba-8bbf-117ce7fae871.gif" width="500" />
+<img src="https://user-images.githubusercontent.com/45242501/163777858-291ca9f2-ef83-4fba-8bbf-117ce7fae871.gif" width="500" alt="ranger file manager" />
 </div>
 <p><br /></p>
 
@@ -131,12 +255,12 @@
 <p><br /></p>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163778791-5314c1b0-554b-4c0f-87b2-c286976b8ba0.gif" width="500" />
+<img src="https://user-images.githubusercontent.com/45242501/163778791-5314c1b0-554b-4c0f-87b2-c286976b8ba0.gif" width="500" alt="ranger file manager" />
 </div>
 <p><br /></p>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163779323-ee77c4ca-3933-43f3-87bb-9b0790a2a8c6.gif" width="500" />
+<img src="https://user-images.githubusercontent.com/45242501/163779323-ee77c4ca-3933-43f3-87bb-9b0790a2a8c6.gif" width="500" alt="ranger file manager" />
 </div>
 <p><br /></p>
 
@@ -162,66 +286,11 @@
 <p><br /></p>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163779731-91f847d1-2717-4274-8122-0c0e4d0b9cfa.gif" width="500" />
+<img src="https://user-images.githubusercontent.com/45242501/163779731-91f847d1-2717-4274-8122-0c0e4d0b9cfa.gif" width="500" alt="ranger file manager" />
 </div>
 <p><br /></p>
 
 <div style="display: flex; justify-content: center;">
-<img src="https://user-images.githubusercontent.com/45242501/163779952-5e9b7f19-36cc-4d06-a10a-343a8e1dc9a3.gif" width="500" />
+<img src="https://user-images.githubusercontent.com/45242501/163779952-5e9b7f19-36cc-4d06-a10a-343a8e1dc9a3.gif" width="500" alt="ranger file manager" />
 </div>
-<p><br /></p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;cli&quot;]" /><category term="linux" /><category term="ranger" /><category term="file" /><category term="explorer" /><summary type="html"><![CDATA[What is ranger file manager? ranger is a file manager that runs in the console or terminal, thought for productivity. General Usage]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/launch-ranger-console-file-manager.png" /><media:content medium="image" url="http://localhost:4000/assets/uploads/launch-ranger-console-file-manager.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google Analytics para Jekyll</title><link href="http://localhost:4000/google/test-2/" rel="alternate" type="text/html" title="Google Analytics para Jekyll" /><published>2022-09-16T13:21:09-06:00</published><updated>2022-09-16T13:21:09-06:00</updated><id>http://localhost:4000/google/test-2</id><content type="html" xml:base="http://localhost:4000/google/test-2/"><![CDATA[<h1 id="google-analytics-para-jekyll">Google Analytics para Jekyll</h1>
-
-<p>El sistema de Monitoreo de Google Analytics es un servicio gratis, ofrecido por Google. Que monitorea y reporta el tráfico de una página Web.
-En este tutorial, te mostraré como agregar en nuevo script “Global Site Tag” a tu sitio de Jekyll.</p>
-
-<h1 id="paso-1">Paso 1.</h1>
-
-<p>Has Login en tu sitio de Google Analitics y crea una nueva propiedad para recibir un “Tracking ID” para tú página Web.
-Ejemplo: XX-XXXXXX</p>
-<style>
-  code.t {
-    background-color: var(--header-hover-background-color);
-  }
-</style>
-
-<h1 id="paso-2">Paso 2.</h1>
-<h3 id="instalando-el-tracking-de-google-analytics">Instalando el tracking de Google Analytics</h3>
-<p>primero crea un nuevo archivo llamado <code class="t"> analytics.html </code> en tu archivo llamado <code> _includes </code>.</p>
-
-<p>Ahora Copia y pega el siguiente código “Global Site Tag” (gtag.js) en tu archivo llamado <code class="t">analytics.html</code> y guárdalo.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">async</span> <span class="na">src=</span><span class="s">"https://www.googletagmanager.com/gtag/js?id=G-M7RTRWEW1C"</span><span class="nt">&gt;&lt;/script&gt;</span>
-<span class="nt">&lt;script&gt;</span>
-  <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nx">dataLayer</span> <span class="o">||</span> <span class="p">[];</span>
-  <span class="kd">function</span> <span class="nx">gtag</span><span class="p">(){</span><span class="nx">dataLayer</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arguments</span><span class="p">);}</span>
-  <span class="nx">gtag</span><span class="p">(</span><span class="dl">'</span><span class="s1">js</span><span class="dl">'</span><span class="p">,</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
-
-  <span class="nx">gtag</span><span class="p">(</span><span class="dl">'</span><span class="s1">config</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">G-M7RTRWEW1C</span><span class="dl">'</span><span class="p">);</span>
-<span class="nt">&lt;/script&gt;</span>
-</code></pre></div></div>
-
-<p>Encontrarás tu propio código en la página de Google Analytics (gtag.js) <strong> Admin &gt; Property &gt; Tracking info &gt; Tracking code. <strong>Tu propio codigo “Tracking ID” se muestra en la parte superior de la pagina.</strong></strong></p>
-
-<p>El <code class="t"> {{ site.google_analitics }}" </code> que e incluido arriba, te permitirá configurar tu propio Tracking ID en el archivo <code>_config.yml</code>.</p>
-
-<h1 id="añadiendo-tu-tracking-id-de-google-analytics-a-tu-jekyll-archivo-de-configuración">Añadiendo tu Tracking ID de Google Analytics a tu Jekyll archivo de configuración</h1>
-<p>Abre tu <code style="t">_config.yml</code> y agrega las siguientes líneas de código. Es importante que incluyas tu propio “Tracking ID” asi que remplaza <code class="t">XX-XXXXXX</code> por el código de tu propia página.</p>
-
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Google Analytics</span>
-<span class="na">google_analytics</span><span class="pi">:</span> <span class="s">UA—XXXXXXXX-X</span>
-</code></pre></div></div>
-<h1 id="finalmente">Finalmente</h1>
-<p>Google recomienda colocar el script dentro de la sección <code class="t">&lt;head&gt;</code> de tu página web, para que funcione correctamente.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="sx">% if </span><span class="n">site</span><span class="p">.</span><span class="nf">google_analytics</span> <span class="n">and</span> <span class="n">jekyll</span><span class="p">.</span><span class="nf">environment</span> <span class="o">==</span> <span class="s1">'production'</span> <span class="o">%</span><span class="p">}</span>
-  <span class="p">{</span><span class="sx">% include </span><span class="n">analytics</span><span class="p">.</span><span class="nf">html</span> <span class="sx">%}
-{% endif %}</span>
-</code></pre></div></div>
-
-<p>En el futuro, cuando tú ejecutes <code style="t">bundle exec jekyll serve</code> la parte de Google Analytics no se vera afectada si esta accedes a la página localmente. “localhost:4000”.</p>
-
-<p>Si necesitas que se muestre el tag dentro de un entorno de desarrollo, puedes ejecutar</p>
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">JEKYLL_ENV=production bundle exec jekyll build</span>
-</code></pre></div></div>
-
-<p>Siempre asegúrate manualmente que tu tag está insertado correctamente.</p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;google&quot;]" /><category term="google" /><category term="analytics" /><category term="espanol" /><category term="jekyll" /><summary type="html"><![CDATA[Google Analytics para Jekyll]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/googleanalytics.webp" /><media:content medium="image" url="http://localhost:4000/assets/uploads/googleanalytics.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><br /></p>]]></content><author><name>Fredy Sandoval</name></author><category term="[&quot;tools&quot;]" /><category term="linux" /><category term="ranger" /><category term="file" /><category term="explorer" /><summary type="html"><![CDATA[What is ranger file manager? ranger is a file manager that runs in the console or terminal, thought for productivity. General Usage]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/uploads/launch-ranger-console-file-manager.png" /><media:content medium="image" url="http://localhost:4000/assets/uploads/launch-ranger-console-file-manager.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -8,7 +8,8 @@
 .highlight pre {
   border: none;
   padding: 10px;
-  /* padding-top: 35px; */
+  padding-top: 25px;
+  padding-bottom: 25px;
   position: relative;
 }
 /* .highlight pre::before {
