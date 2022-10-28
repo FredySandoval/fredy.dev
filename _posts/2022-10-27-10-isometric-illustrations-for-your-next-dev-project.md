@@ -14,25 +14,34 @@ I made 10 free of any copyright Abstract illustration for your next dev project.
 The Images have no background so they can merge with your own background.
 
 ## 1
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/1.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/1.png" width=300 alt="isometric shape">
+
 ## 2
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/2.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/2.png" width=300 alt="isometric shape">
+
 ## 3
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/3.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/3.png" width=300 alt="isometric shape">
+
 ## 4
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/4.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/4.png" width=300 alt="isometric shape">
+
 ## 5
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/5.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/5.png" width=300 alt="isometric shape">
+
 ## 6
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/6.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/6.png" width=300 alt="isometric shape">
+
 ## 7
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/7.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/7.png" width=300 alt="isometric shape">
+
 ## 8
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/8.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/8.png" width=300 alt="isometric shape">
+
 ## 9
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/9.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/9.png" width=300 alt="isometric shape">
+
 ## 10
-![Isometric shape](https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/10.png)
+<img src="https://raw.githubusercontent.com/FredySandoval/illustrations/main/blender/isometric_illustration/10.png" width=300 alt="isometric shape">
 
 ### 👇 Follow me on Twitter
 
