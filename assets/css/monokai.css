@@ -1,6 +1,9 @@
 /**
  * Syntax highlighting styles
  */
+ code {
+  color: white;
+ }
 .highlight {
   background: #41423a;
   border-radius: 5px;

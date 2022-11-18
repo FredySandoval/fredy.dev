@@ -92,6 +92,9 @@ html:not(.style-scope)[theme="grape"] {
     --hover-image-color: #4614a1;
 }
 
+img {
+    max-width: 100%;
+}
 html:not(.style-scope)[theme="dark"] img,
 html:not(.style-scope)[theme="grape"] img {
     filter: brightness(.8) contrast(1.2);
